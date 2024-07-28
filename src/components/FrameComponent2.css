@@ -1,0 +1,115 @@
+.div23 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 34px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 18px;
+}
+.wrapper-vector-672-child {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.138);
+}
+.wrapper-vector-672 {
+  height: 135.7px;
+  width: 131.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -36px;
+  right: -41.7px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number1 {
+  width: 64px;
+  box-shadow: 0 4px 8px rgba(51, 51, 51, 0.15);
+  border-radius: 50px;
+  background-color: #333;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 21px;
+  position: relative;
+  gap: 10px;
+}
+.real-time-transparency {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 72px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.stay-informed-every {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Inter;
+  color: #444a5b;
+}
+.number-parent,
+.real-time-transparency-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  min-width: 303px;
+  max-width: 100%;
+  font-size: 60px;
+  color: #111217;
+  font-family: Sora;
+}
+.number-parent {
+  flex-direction: row;
+  min-width: 370px;
+  text-align: left;
+  font-size: 28px;
+  color: #fafafb;
+  font-family: Inter;
+}
+@media screen and (max-width: 800px) {
+  .real-time-transparency {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .real-time-transparency-parent {
+    gap: 20px;
+  }
+  .number-parent {
+    flex-wrap: wrap;
+    gap: 20px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div23 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .real-time-transparency {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .stay-informed-every {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

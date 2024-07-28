@@ -1,0 +1,168 @@
+.dreallogo1-2-icon {
+  height: 61.4px;
+  width: 56.8px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.thriftpay {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-weight: 600;
+}
+.logo {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.dreallogo1-2-icon1 {
+  height: 49.2px;
+  width: 45.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.thriftpay1 {
+  width: 71px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 18.4px;
+  font-weight: 600;
+  display: none;
+}
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9.6px;
+}
+.about-us,
+.faqs,
+.home,
+.how-it-works,
+.why-us2 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.home {
+  font-weight: 600;
+  color: #c36;
+  min-width: 46px;
+}
+.about-us,
+.faqs,
+.how-it-works,
+.why-us2 {
+  color: inherit;
+  min-width: 67px;
+}
+.about-us,
+.faqs,
+.how-it-works {
+  min-width: 71px;
+}
+.faqs,
+.how-it-works {
+  min-width: 100px;
+}
+.faqs {
+  min-width: 39px;
+}
+.links {
+  width: 1062.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: calc(100% - 169px);
+  color: #666f89;
+}
+.button1 {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fafafb;
+  text-align: left;
+  display: inline-block;
+  min-width: 76px;
+}
+.button,
+.container,
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 8px 24px;
+  background-color: #c36;
+  border-radius: 8px;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: #e64d80;
+}
+.container,
+.top-nav {
+  /* background-color: #fdfdfd; */
+  box-sizing: border-box;
+  max-width: 100%;
+  /* position: fixed; */
+}
+.container {
+  flex: 1;
+  backdrop-filter: blur(40px);
+  border-radius: 50px;
+  border: 1px solid #c3c6d2;
+  justify-content: space-between;
+  padding: 14px 39px;
+  gap: 0;
+  row-gap: 20px;
+  font-size: 16px;
+}
+.top-nav {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: center;
+  padding: 24px 64px;
+  gap: 300px;
+  text-align: left;
+  font-size: 20px;
+  color: #c36;
+  cursor: pointer;
+  /* font-family: Inter; */
+}
+@media screen and (max-width: 800px) {
+  .links {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  .top-nav {
+    gap: 150px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thriftpay {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .top-nav {
+    gap: 75px;
+  }
+}

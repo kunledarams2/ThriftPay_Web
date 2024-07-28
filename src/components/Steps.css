@@ -1,0 +1,424 @@
+.image-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.steps-image {
+  height: 746px;
+  width: 639px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 639px;
+  max-width: 100%;
+}
+.empowering-your-financial {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 47px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.lets-guide-you {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Inter;
+  color: #444a5b;
+}
+.heading3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.icons20 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.steps-progress-item,
+.steps-progress-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.steps-progress-item {
+  box-shadow: 0 1.5px 1.53px rgba(255, 255, 255, 0.44) inset;
+  border-radius: 4px;
+  background-color: #c36;
+  padding: 12px;
+}
+.steps-progress-items {
+  align-self: stretch;
+  backdrop-filter: blur(3.07px);
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  border: 1px solid #d3d6de;
+  padding: 8px 9px;
+}
+.steps-progress-items1 {
+  width: 1.5px;
+  flex: 1;
+  position: relative;
+  border-right: 1.5px solid #dfe1e7;
+  box-sizing: border-box;
+}
+.icons21 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons-wrapper5,
+.steps-progress-items2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons-wrapper5 {
+  box-shadow: 0 1.5px 1.53px rgba(255, 255, 255, 0.44) inset;
+  border-radius: 4px;
+  background-color: #c36;
+  padding: 12px;
+}
+.steps-progress-items2 {
+  align-self: stretch;
+  backdrop-filter: blur(3.07px);
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  border: 1px solid #d3d6de;
+  padding: 8px 9px;
+}
+.steps-progress-items3 {
+  width: 1.5px;
+  flex: 1;
+  position: relative;
+  border-right: 1.5px solid #dfe1e7;
+  box-sizing: border-box;
+}
+.icons22 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons-wrapper6,
+.steps-progress-items4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons-wrapper6 {
+  box-shadow: 0 1.5px 1.53px rgba(255, 255, 255, 0.44) inset;
+  border-radius: 4px;
+  background-color: #c36;
+  padding: 12px;
+}
+.steps-progress-items4 {
+  align-self: stretch;
+  backdrop-filter: blur(3.07px);
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  border: 1px solid #d3d6de;
+  padding: 8px 9px;
+}
+.steps-progress-items5 {
+  width: 1.5px;
+  flex: 1;
+  position: relative;
+  border-right: 1.5px solid #dfe1e7;
+  box-sizing: border-box;
+}
+.icons23 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons-wrapper7,
+.steps-progress-items6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons-wrapper7 {
+  box-shadow: 0 1.5px 1.53px rgba(255, 255, 255, 0.44) inset;
+  border-radius: 4px;
+  background-color: #c36;
+  padding: 12px;
+}
+.steps-progress-items6 {
+  align-self: stretch;
+  backdrop-filter: blur(3.07px);
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  border: 1px solid #d3d6de;
+  padding: 8px 9px;
+}
+.progress3 {
+  height: 544px;
+  width: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-up {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.download-our-mobile {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter;
+  color: #444a5b;
+}
+.steps-progress-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* border: solid #111217; */
+  padding: 0 0 10.5px;
+  gap: 10px;
+}
+.discover-plans {
+  width: 148px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+}
+.choose-from-a {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  /* font-family: Inter; */
+  color: #444a5b;
+}
+.steps-progress-label1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 17.5px;
+  gap: 16px;
+}
+.join-a-plan,
+.join-a-plan1 {
+  align-self: stretch;
+  position: relative;
+}
+.join-a-plan {
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.join-a-plan1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter;
+  color: #444a5b;
+}
+.steps-progress-label2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 17.5px;
+  gap: 6px;
+}
+.track-progress {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.monitor-your-savings {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter;
+  color: #444a5b;
+}
+.steps-progress-label3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 17.5px;
+  gap: 6px;
+}
+.content1,
+.text1 {
+  align-items: flex-start;
+}
+.text1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 94px;
+  max-width: calc(100% - 116px);
+
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 20px;
+  font-family: "Sorts Mill Goudy";
+}
+.content,
+.content1,
+.right1,
+.steps {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.right1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  min-width: 349px;
+}
+.content,
+.steps {
+  align-self: stretch;
+}
+.content {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 64px;
+}
+.steps {
+  background-color: #fdfdfd;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 100px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 39px;
+  color: #111217;
+  font-family: Sora;
+}
+@media screen and (max-width: 1350px) {
+  .image-icon1 {
+    align-self: stretch;
+    width: auto;
+  }
+  .steps-image {
+    flex: 1;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .steps-image {
+    min-width: 100%;
+  }
+  .steps {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .steps-image {
+    gap: 32px;
+  }
+  .empowering-your-financial {
+    font-size: 31px;
+    line-height: 38px;
+  }
+  .content1 {
+    gap: 20px;
+  }
+  .right1 {
+    min-width: 100%;
+  }
+  .content,
+  .right1,
+  .steps {
+    gap: 32px;
+  }
+  .steps {
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .steps-image {
+    gap: 16px;
+  }
+  .empowering-your-financial {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .lets-guide-you {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .progress3 {
+    display: none;
+  }
+  .discover-plans,
+  .join-a-plan,
+  .sign-up,
+  .track-progress {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .text1 {
+    gap: 37px;
+    max-width: 100%;
+  }
+  .content,
+  .right1,
+  .steps {
+    gap: 16px;
+  }
+  .steps {
+    padding: 27px 20px;
+    box-sizing: border-box;
+  }
+}

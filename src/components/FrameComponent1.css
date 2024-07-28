@@ -1,0 +1,103 @@
+.your-savings-your {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 34px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.lets-guide-you1 {
+  width: 918px;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Inter;
+  color: #444a5b;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.heading5 {
+  width: 1040px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0px 0px 40px 0px;
+  /* border: solid #0b27b1; */
+}
+.faqs-wrapper,
+.faqs1,
+.faqs2,
+.heading5 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.faqs2 {
+  width: 1040px;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 39px;
+}
+.faqs-wrapper,
+.faqs1 {
+  box-sizing: border-box;
+}
+.faqs1 {
+  flex: 1;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 104px 20px 50px 0px;
+  gap: 64px;
+}
+.faqs-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 32px;
+  text-align: center;
+  font-size: 28px;
+  color: #111217;
+  font-family: Sora;
+}
+@media screen and (max-width: 1350px) {
+  .faqs1 {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .faqs1 {
+    gap: 32px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .faqs1 {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .your-savings-your {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .lets-guide-you1 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .faqs1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}

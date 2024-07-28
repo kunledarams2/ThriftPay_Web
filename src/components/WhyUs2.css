@@ -1,0 +1,672 @@
+.shadow-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.main-icon,
+.number-background,
+.shadow-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.main-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.number-background {
+  margin: 0 !important;
+}
+.pixel-7-pro-mockup-label {
+  height: 779.8px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.number-background-parent {
+  width: 386.8px;
+  margin: 0 !important;
+  position: absolute;
+  right: 172px;
+  bottom: -259px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16.4px 10px 21.8px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.basic-thrift-plan2 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 16px;
+  font-weight: 600;
+}
+.july-14-20231,
+.start-date1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 12.8px;
+}
+.july-14-20231 {
+  color: #111217;
+}
+.plan-name-container,
+.start-date-group {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.start-date-group {
+  height: 13px;
+  display: none;
+  gap: 3.2px;
+  font-size: 8px;
+  color: #91949e;
+}
+.plan-name-container {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  font-size: 12.8px;
+}
+.icons9 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div20,
+.per-member1 {
+  position: relative;
+  display: inline-block;
+}
+.div20 {
+  line-height: 15px;
+  font-weight: 500;
+  min-width: 39px;
+  white-space: nowrap;
+}
+.per-member1 {
+  font-size: 8px;
+  line-height: 13px;
+  color: #666f89;
+  min-width: 47px;
+}
+.contribution-amount,
+.info-28 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.2px;
+}
+.info-28 {
+  flex: 1;
+  border-radius: 6.4px;
+  background-color: #fdfdfd;
+  border: 0.4px solid #d3d6de;
+  padding: 5px 17px 5px 6px;
+  gap: 6.4px;
+}
+.icons10 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.duration1,
+.months1 {
+  position: relative;
+  display: inline-block;
+}
+.months1 {
+  line-height: 15px;
+  font-weight: 500;
+  min-width: 49px;
+}
+.duration1 {
+  font-size: 8px;
+  line-height: 13px;
+  color: #666f89;
+  min-width: 33px;
+}
+.duration-value,
+.info-51 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.2px;
+}
+.info-51 {
+  flex: 1;
+  border-radius: 6.4px;
+  background-color: #fdfdfd;
+  border: 0.4px solid #d3d6de;
+  padding: 5px 15px 5px 6px;
+  gap: 6.4px;
+}
+.icons11 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div21,
+.total-remit1 {
+  position: relative;
+  display: inline-block;
+}
+.div21 {
+  line-height: 15px;
+  font-weight: 500;
+  min-width: 47px;
+  white-space: nowrap;
+}
+.total-remit1 {
+  font-size: 8px;
+  line-height: 13px;
+  color: #666f89;
+  min-width: 43px;
+}
+.remittance-amount {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2px;
+}
+.info-61,
+.plan-details,
+.remittance-amount {
+  display: flex;
+  justify-content: flex-start;
+}
+.info-61 {
+  flex: 1;
+  border-radius: 6.4px;
+  background-color: #fdfdfd;
+  border: 0.4px solid #d3d6de;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 17px 5px 6px;
+  gap: 6.4px;
+}
+.plan-details {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 12.8px;
+}
+.progress-background,
+.progress-fill {
+  height: 6.4px;
+  flex: 1;
+  position: relative;
+}
+.progress-background {
+  background: linear-gradient(90deg, #02894b, #3d503a);
+}
+.progress-fill {
+  background-color: #bdbdbd;
+}
+.progress-bar-wrapper,
+.progress-bar2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.progress-bar2 {
+  align-self: stretch;
+  border-radius: 800px;
+  overflow: hidden;
+  flex-direction: row;
+}
+.progress-bar-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 4.3px 0 0;
+}
+.progress-placeholder {
+  position: relative;
+  line-height: 15px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 21px;
+}
+.progress2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6.4px;
+  color: #02894b;
+}
+.avatars-icon6 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.olawale-damilare5 {
+  position: relative;
+  line-height: 15px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 80px;
+}
+.johndoeexamplecom9 {
+  width: 89px;
+  position: relative;
+  font-size: 8px;
+  line-height: 12.8px;
+  color: #666f89;
+  display: none;
+  white-space: nowrap;
+}
+.coordinator-name-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 0;
+}
+.thrift-coordinator1 {
+  position: relative;
+  font-size: 8px;
+  line-height: 13px;
+  color: #666f89;
+  display: inline-block;
+  min-width: 68px;
+}
+.coordinator-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.coordinator-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.4px;
+}
+.plan-card-wrapper,
+.thriftplan-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thriftplan-card1 {
+  align-self: stretch;
+  box-shadow: 0 16px 20px -4px rgba(16, 24, 40, 0.1),
+    0 6.4px 8px -4.8px rgba(16, 24, 40, 0.1);
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  border: 0.4px solid #c3c6d2;
+  padding: 12px;
+  gap: 12.8px;
+  z-index: 3;
+}
+.plan-card-wrapper {
+  flex: 1;
+  padding: 0 0 160px;
+  box-sizing: border-box;
+  min-width: 170px;
+  min-height: 353px;
+}
+.basic-thrift-plan3 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 16px;
+  font-weight: 600;
+}
+.plan-title-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 12.8px;
+}
+.icons12 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div22,
+.per-member2 {
+  position: relative;
+  display: inline-block;
+}
+.div22 {
+  line-height: 15px;
+  font-weight: 500;
+  min-width: 39px;
+  white-space: nowrap;
+}
+.per-member2 {
+  font-size: 8px;
+  line-height: 13px;
+  color: #666f89;
+  min-width: 47px;
+}
+.cost-details,
+.info-29 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.2px;
+}
+.info-29 {
+  flex: 0.9588;
+  border-radius: 6.4px;
+  background-color: #fdfdfd;
+  border: 0.4px solid #d3d6de;
+  padding: 5px 17px 5px 6px;
+  gap: 6.4px;
+}
+.icons13 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.duration2,
+.months2 {
+  position: relative;
+  display: inline-block;
+}
+.months2 {
+  line-height: 15px;
+  font-weight: 500;
+  min-width: 49px;
+}
+.duration2 {
+  font-size: 8px;
+  line-height: 13px;
+  color: #666f89;
+  min-width: 33px;
+}
+.duration-information,
+.info-52 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.2px;
+}
+.info-52 {
+  flex: 1;
+  border-radius: 6.4px;
+  background-color: #fdfdfd;
+  border: 0.4px solid #d3d6de;
+  padding: 5px 15px 5px 6px;
+  gap: 6.4px;
+}
+.icons14 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.filled-slots,
+.slot-count {
+  position: relative;
+  display: inline-block;
+}
+.slot-count {
+  line-height: 15px;
+  font-weight: 500;
+  min-width: 21px;
+}
+.filled-slots {
+  font-size: 8px;
+  line-height: 13px;
+  color: #666f89;
+  min-width: 42px;
+}
+.slots-details {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2px;
+}
+.info-410,
+.plan-information,
+.slots-details {
+  display: flex;
+  justify-content: flex-start;
+}
+.info-410 {
+  flex: 0.856;
+  border-radius: 6.4px;
+  background-color: #fdfdfd;
+  border: 0.4px solid #d3d6de;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 22px 5px 6px;
+  gap: 6.4px;
+}
+.plan-information {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 12.8px;
+}
+.starts-on-january {
+  position: relative;
+  line-height: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 121px;
+}
+.starts-on-january-31-2023-wrapper {
+  border-radius: 3.2px;
+  background-color: #b1e3ff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.2px 9px;
+  white-space: nowrap;
+}
+.days-to-go {
+  flex: 1;
+  position: relative;
+  line-height: 13px;
+  color: #91949e;
+  text-align: right;
+}
+.frame-parent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 8px;
+}
+.avatars-icon7 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.olawale-damilare6 {
+  position: relative;
+  line-height: 14.4px;
+  font-weight: 500;
+}
+.johndoeexamplecom10 {
+  width: 89px;
+  position: relative;
+  font-size: 8px;
+  line-height: 12.8px;
+  color: #666f89;
+  display: none;
+  white-space: nowrap;
+}
+.olawale-damilare-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.thrift-coordinator2 {
+  position: relative;
+  font-size: 8px;
+  line-height: 12.8px;
+  color: #666f89;
+}
+.frame-parent10 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.avatars-parent8 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.4px;
+}
+.card-container,
+.thriftplan-card2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.thriftplan-card2 {
+  flex: 0.9055;
+  box-shadow: 0 16px 20px -4px rgba(16, 24, 40, 0.1),
+    0 6.4px 8px -4.8px rgba(16, 24, 40, 0.1);
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  border: 0.4px solid #c3c6d2;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 12px;
+  gap: 12.8px;
+  min-width: 170px;
+  z-index: 3;
+}
+.card-container {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 17.6px;
+}
+.thrift-plan-cards,
+.why-us-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.thrift-plan-cards {
+  width: 542.4px;
+  flex-direction: column;
+  padding: 93.3px 0 0;
+  min-width: 542.4px;
+  font-size: 9.6px;
+  color: #171411;
+}
+.why-us-1 {
+  align-self: stretch;
+  border-radius: 40px 40px 0 0;
+  background-color: #e0e0e0;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 80px 100px 113.7px;
+  position: relative;
+  gap: 120.2px;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-top: -40px;
+  text-align: left;
+  font-size: 18px;
+  color: #fafafb;
+  /* font-family: Inter; */
+}
+@media screen and (max-width: 1350px) {
+  .thrift-plan-cards {
+    flex: 1;
+  }
+  .why-us-1 {
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+  .thrift-plan-cards {
+    min-width: 100%;
+  }
+  .why-us-1 {
+    gap: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 74px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .plan-card-wrapper {
+    padding-bottom: 104px;
+    box-sizing: border-box;
+  }
+  .thriftplan-card2 {
+    flex: 1;
+  }
+  .thrift-plan-cards {
+    padding-top: 80px;
+    box-sizing: border-box;
+  }
+  .why-us-1 {
+    gap: 15px;
+  }
+}

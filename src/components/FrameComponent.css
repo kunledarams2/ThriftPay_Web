@@ -1,0 +1,191 @@
+.transform-your-savings {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 72px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.download-now-and {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Inter;
+}
+.google-play-icon {
+  width: 144px;
+  height: 41.6px;
+  position: relative;
+}
+.download-call-to-action,
+.download-call-to-action-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.download-call-to-action {
+  align-self: stretch;
+  gap: 40px;
+}
+.download-call-to-action-wrapper {
+  width: 537.8px;
+  padding: 147.2px 0 0;
+  box-sizing: border-box;
+  min-width: 537.8px;
+  max-width: 100%;
+}
+.shadow-icon2 {
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.download-mockup-container,
+.main-icon2,
+.shadow-icon2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.main-icon2 {
+  right: 0.3px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.download-mockup-container {
+  margin: 0 !important;
+  right: 0;
+}
+.galaxy-s24-ultra-mockup-titani1 {
+  height: 594.2px;
+  width: 234.6px;
+  position: relative;
+  object-fit: contain;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.content-container,
+.content3,
+.galaxy-s24-ultra-mockup-titani,
+.mock-up {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.galaxy-s24-ultra-mockup-titani {
+  width: 262.2px;
+  filter: drop-shadow(0 40px 60px rgba(16, 24, 40, 0.15))
+    drop-shadow(0 8px 10px rgba(16, 24, 40, 0.1));
+  justify-content: flex-start;
+  padding: 9.3px 4px 10.9px;
+  position: relative;
+}
+.content-container,
+.content3,
+.mock-up {
+  max-width: 100%;
+}
+.mock-up {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #faebf0;
+  justify-content: center;
+  padding: 64px 20px;
+  min-width: 378px;
+}
+.content-container,
+.content3 {
+  justify-content: flex-start;
+}
+.content3 {
+  flex: 1;
+  border-radius: 0 0 40px 40px;
+  background-color: #c36;
+  overflow: hidden;
+  padding: 80px 100px;
+  gap: 120px;
+  flex-shrink: 0;
+}
+.content-container {
+  align-self: stretch;
+  padding: 0 0 32px;
+  text-align: left;
+  font-size: 60px;
+  color: #fafafb;
+  font-family: Sora;
+}
+@media screen and (max-width: 1350px) {
+  .download-call-to-action-wrapper {
+    flex: 1;
+  }
+  .content3 {
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .content3 {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .transform-your-savings {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .download-call-to-action {
+    gap: 20px;
+  }
+  .download-call-to-action-wrapper {
+    padding-top: 96px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .content3,
+  .mock-up {
+    box-sizing: border-box;
+  }
+  .mock-up {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    min-width: 100%;
+  }
+  .content3 {
+    gap: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .transform-your-savings {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .download-now-and {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .content3 {
+    gap: 15px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}

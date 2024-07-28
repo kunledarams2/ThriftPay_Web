@@ -1,0 +1,159 @@
+.dreallogo1-2-icon2 {
+  height: 49.2px;
+  width: 45.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.thriftpay2 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 19px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 71px;
+}
+.auto-added-frame,
+.logo3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo3 {
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.auto-added-frame {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.your-gateway-to {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  color: #444a5b;
+  display: none;
+}
+.logo2 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  color: #c36;
+}
+.about-us3 {
+  text-decoration: none;
+  color: inherit;
+}
+.about-us3,
+.contact-us,
+.faqs3,
+.privacy-policy,
+.terms-of-use {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 85px;
+}
+.privacy-policy {
+  text-decoration: none;
+  color: inherit;
+}
+.facebook-icon,
+.linkedin-icon,
+.twitter-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  min-height: 30px;
+}
+.facebook-icon1 {
+  object-fit: cover;
+}
+.facebook-icon1,
+.facebook-icon2 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  min-height: 30px;
+}
+.content4,
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-social {
+  justify-content: flex-end;
+  padding: 0 0 0 30px;
+  gap: 20px;
+}
+.content4 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.divider-icon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.copyright-thrift {
+  height: 28px;
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.footer {
+  align-self: stretch;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 64px 100px 32.1px;
+  gap: 32px;
+  text-align: left;
+  font-size: 16px;
+  color: #444a5b;
+  font-family: Inter;
+}
+@media screen and (max-width: 1350px) {
+  .content4 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    gap: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .your-gateway-to {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,118 @@
+.number-inner-container {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 34px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 14px;
+}
+.member-payment-icon {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.138);
+}
+.wrapper-member-payment {
+  height: 135.7px;
+  width: 131.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -36px;
+  right: -41.7px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number {
+  width: 64px;
+  border-radius: 50px;
+  background-color: #333;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 23px;
+  position: relative;
+  gap: 10px;
+}
+.tailored,
+.thrift-plans {
+  margin: 0;
+}
+.tailored-thrift-plans-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 72px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.our-thrift-plans {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Inter;
+  color: #444a5b;
+}
+.plans-activities,
+.why-us-inner-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  min-width: 307px;
+  max-width: 100%;
+  font-size: 60px;
+  color: #111217;
+  font-family: Sora;
+}
+.why-us-inner-content {
+  flex-direction: row;
+  min-width: 375px;
+  text-align: left;
+  font-size: 28px;
+  color: #fafafb;
+  font-family: Inter;
+}
+@media screen and (max-width: 800px) {
+  .tailored-thrift-plans-container {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .plans-activities {
+    gap: 20px;
+  }
+  .why-us-inner-content {
+    flex-wrap: wrap;
+    gap: 20px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .number-inner-container {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .tailored-thrift-plans-container {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .our-thrift-plans {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
