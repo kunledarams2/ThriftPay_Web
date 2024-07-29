@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import "./Steps.css";
 import { motion } from "framer-motion";
-import { Element, animateScroll as scroll } from "react-scroll";
+import { Element } from "react-scroll";
 
 export type StepsType = {
   className?: string;

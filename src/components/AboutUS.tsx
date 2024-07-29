@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import "./AboutUS.css";
 import { motion } from "framer-motion";
-import { Link, Element, animateScroll as scroll } from "react-scroll";
+import { Element } from "react-scroll";
 
 export type AboutUSType = {
   className?: string;

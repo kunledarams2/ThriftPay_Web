@@ -1,6 +1,6 @@
 import { FunctionComponent, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Link, Element, animateScroll as scroll, scroller } from "react-scroll";
+import { Link, animateScroll as scroll, scroller } from "react-scroll";
 import "./TopNav.css";
 import { NavigateFunction, useNavigate } from "react-router-dom";
 
