@@ -1,13 +1,12 @@
-{"homepage": "https://kunledarams2.github.io/ThriftPay_Web",
+{
   "name": "thriftpay-web-app",
+  "homepage": "https://kunledarams2.github.io/ThriftPay_Web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "clean": "rm -rf dist",
+   
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
