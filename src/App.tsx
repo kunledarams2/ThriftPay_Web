@@ -2,79 +2,66 @@ import {
   Navigate,
   createBrowserRouter,
   RouterProvider,
+  Link,
+  Outlet,
 } from "react-router-dom";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
 // import "./App.css";
 import ThriftPayLandingPage from "./pages/ThriftPayLandingPage";
 import ContactUs from "./pages/Contact";
 import Root from "./pages/Root";
 
 function App() {
-  // const action = useNavigationType();
-  // const location = useLocation();
-  // const pathname = location.pathname;
+  return (
+    <>
+      <div>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
 
-  // useEffect(() => {
-  //   if (action !== "POP") {
-  //     window.scrollTo(0, 0);
-  //   }
-  // }, [action, pathname]);
+      <nav>
+        <Link to="/vite-react-router/">Home</Link>
+        {" | "}
+        <Link to="/vite-react-router/contact">Contact</Link>
+      </nav>
 
-  // useEffect(() => {
-  //   let title = "";
-  //   let metaDescription = "";
+      <Outlet />
 
-  //   switch (pathname) {
-  //     case "/":
-  //       title = "";
-  //       metaDescription = "";
-  //       break;
-  //   }
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  );
 
-  //   if (title) {
-  //     document.title = title;
-  //   }
+  // const router = createBrowserRouter([
+  //   {
+  //     // path: "/",
+  //     // element: <ThriftPayLandingPage />,
+  //     // // errorElement: <ErrorPage />,
+  //     children: [
+  //       {
+  //         path: "/",
+  //         element: <Root />,
+  //         children: [
+  //           {
+  //             index: true,
+  //             element: <Navigate to="/home" replace />,
+  //           },
+  //           { path: "/home", element: <ThriftPayLandingPage /> },
+  //           { path: "/contactus", element: <ContactUs /> },
+  //         ],
+  //       },
+  //     ],
+  //   },
+  // ]);
 
-  //   if (metaDescription) {
-  //     const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
-  //       'head > meta[name="description"]'
-  //     );
-  //     if (metaDescriptionTag) {
-  //       metaDescriptionTag.content = metaDescription;
-  //     }
-  //   }
-  // }, [pathname]);
-
-  const router = createBrowserRouter([
-    {
-      // path: "/",
-      // element: <ThriftPayLandingPage />,
-      // // errorElement: <ErrorPage />,
-      children: [
-        {
-          path: "/",
-          element: <Root />,
-          children: [
-            {
-              index: true,
-              element: <Navigate to="/home" replace />,
-            },
-            { path: "/home", element: <ThriftPayLandingPage /> },
-            { path: "/contactus", element: <ContactUs /> },
-          ],
-        },
-      ],
-    },
-  ]);
-
-  return <RouterProvider router={router} />;
-  // return (
-  //   <Routes>
-  //     <Route path="/" element={<ThriftPayLandingPage />} />
-  //     {/* <Route path="/contact" element={<ContactUs />} /> */}
-  //   </Routes>
-  // );
+  // return <RouterProvider router={router} />;
 }
 
 export default App;
