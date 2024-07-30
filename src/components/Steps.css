@@ -224,7 +224,7 @@
   position: relative;
   font-size: 16px;
   line-height: 24px;
-  /* font-family: Inter; */
+  font-family: Inter;
   color: #444a5b;
 }
 .steps-progress-label1 {
@@ -301,7 +301,7 @@
   flex-direction: row;
   gap: 40px;
   font-size: 20px;
-  font-family: "Sorts Mill Goudy";
+  font-family: "Sora";
 }
 .content,
 .content1,
