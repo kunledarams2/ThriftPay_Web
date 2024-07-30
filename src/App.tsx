@@ -1,16 +1,16 @@
 import {
-  Navigate,
-  createBrowserRouter,
-  RouterProvider,
+  // Navigate,
+  // createBrowserRouter,
+  // RouterProvider,
   Link,
   Outlet,
 } from "react-router-dom";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 // import "./App.css";
-import ThriftPayLandingPage from "./pages/ThriftPayLandingPage";
-import ContactUs from "./pages/Contact";
-import Root from "./pages/Root";
+// import ThriftPayLandingPage from "./pages/ThriftPayLandingPage";
+// import ContactUs from "./pages/Contact";
+// import Root from "./pages/Root";
 
 function App() {
   return (
@@ -26,9 +26,9 @@ function App() {
       <h1>Vite + React</h1>
 
       <nav>
-        <Link to="/vite-react-router/">Home</Link>
+        <Link to="/ThriftPay_Web/">Home</Link>
         {" | "}
-        <Link to="/vite-react-router/contact">Contact</Link>
+        <Link to="//ThriftPay_Web/contactus">Contact</Link>
       </nav>
 
       <Outlet />

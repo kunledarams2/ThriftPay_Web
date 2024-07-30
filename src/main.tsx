@@ -4,11 +4,11 @@ import App from "./App.tsx";
 // import "./index.css";
 import "./global.css";
 import {
-  Navigate,
+  // Navigate,
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
-import Root from "./pages/Root.tsx";
+// import Root from "./pages/Root.tsx";
 import ThriftPayLandingPage from "./pages/ThriftPayLandingPage.tsx";
 import ContactUs from "./pages/Contact.tsx";
 
@@ -19,15 +19,16 @@ const router = createBrowserRouter([
     // // errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/ThriftPay_Web/",
         element: <App />,
         children: [
-          {
-            index: true,
-            element: <Navigate to="/home" replace />,
-          },
-          { path: "/home", element: <ThriftPayLandingPage /> },
-          { path: "/contactus", element: <ContactUs /> },
+          // {
+          //   index: true,
+
+          //   element: <Navigate to="/home" replace />,
+          // },
+          { path: "/ThriftPay_Web/home", element: <ThriftPayLandingPage /> },
+          { path: "/ThriftPay_Web/contactus", element: <ContactUs /> },
         ],
       },
     ],
