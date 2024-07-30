@@ -26,7 +26,7 @@ const Steps: FunctionComponent<StepsType> = ({ className = "" }) => {
             }
           }
         >
-          <div className="content">
+          <div className="content-step ">
             <div className="steps-image">
               <img
                 className="image-icon1"

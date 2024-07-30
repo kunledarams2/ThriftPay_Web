@@ -60,7 +60,7 @@ const TopNav: FunctionComponent<TopNavType> = ({ className = "" }) => {
               className="home"
               onClick={() => {
                 navigate("/home");
-                handleScrollToTop;
+                handleScrollToTop();
               }}
             >
               Home
