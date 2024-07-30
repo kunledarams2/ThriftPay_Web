@@ -1,41 +1,14 @@
-import {
-  // Navigate,
-  // createBrowserRouter,
-  // RouterProvider,
-  Link,
-  Outlet,
-} from "react-router-dom";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-// import "./App.css";
-// import ThriftPayLandingPage from "./pages/ThriftPayLandingPage";
-// import ContactUs from "./pages/Contact";
-// import Root from "./pages/Root";
+import { Outlet } from "react-router-dom";
+
+import TopNav from "./components/TopNav";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-
-      <nav>
-        <Link to="/ThriftPay_Web/">Home</Link>
-        {" | "}
-        <Link to="//ThriftPay_Web/contactus">Contact</Link>
-      </nav>
-
+      <TopNav />
       <Outlet />
-
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Footer />
     </>
   );
 
