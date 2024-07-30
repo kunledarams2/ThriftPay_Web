@@ -4,7 +4,7 @@ import App from "./App.tsx";
 // import "./index.css";
 import "./global.css";
 import {
-  // Navigate,
+  Navigate,
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
@@ -19,16 +19,15 @@ const router = createBrowserRouter([
     // // errorElement: <ErrorPage />,
     children: [
       {
-        path: "/ThriftPay_Web/",
+        path: "/",
         element: <App />,
         children: [
-          // {
-          //   index: true,
-
-          //   element: <Navigate to="/home" replace />,
-          // },
-          { path: "/ThriftPay_Web/home", element: <ThriftPayLandingPage /> },
-          { path: "/ThriftPay_Web/contactus", element: <ContactUs /> },
+          {
+            index: true,
+            element: <Navigate to="/home" replace />,
+          },
+          { path: "/home", element: <ThriftPayLandingPage /> },
+          { path: "/contactus", element: <ContactUs /> },
         ],
       },
     ],
