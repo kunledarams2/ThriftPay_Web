@@ -1,0 +1,148 @@
+.dreallogo12Icon {
+    width: 45.5px;
+    position: relative;
+    height: 49.2px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.thriftpay {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 18.4px;
+    font-weight: 600;
+}
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.autoAddedFrame {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #cc3366;
+}
+.yourGatewayTo {
+    width: 420px;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    display: none;
+}
+.ogunHousingEstate {
+    width: 277px;
+    position: relative;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+.ogunHousingEstateOgunStatParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 14px;
+}
+.logo {
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.aboutUs {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.linkedinIcon {
+    width: 30px;
+    position: relative;
+    height: 30px;
+}
+.facebookIcon1 {
+    width: 30px;
+    position: relative;
+    height: 30px;
+    object-fit: cover;
+}
+.linkedinParent {
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.logoParent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.dividerIcon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.copyrightThrift {
+    flex: 1;
+    position: relative;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+.plot11Block29Road29OgunParent {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.copyrightThriftPay2024Parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px 100px;
+    box-sizing: border-box;
+    gap: 32px;
+    text-align: left;
+    font-size: 16px;
+    color: #444a5b;
+    font-family: Inter;
+}
+
