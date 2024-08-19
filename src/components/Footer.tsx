@@ -6,7 +6,7 @@ export type FooterType = {
   className?: string;
 };
 
-const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
+const Footer: FunctionComponent<FooterType> = ({}) => {
   return (
     <div className={styles.footer}>
       <div className={styles.content}>
