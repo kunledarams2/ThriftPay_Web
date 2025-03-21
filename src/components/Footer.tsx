@@ -1,12 +1,14 @@
 import { FunctionComponent } from "react";
 // import "./Footer.css";
 import styles from "./Footer.module.css";
+import { NavigateFunction, useNavigate } from "react-router";
 
 export type FooterType = {
   className?: string;
 };
 
 const Footer: FunctionComponent<FooterType> = ({}) => {
+  let navigate: NavigateFunction = useNavigate();
   return (
     <div className={styles.footer}>
       <div className={styles.content}>
@@ -38,7 +40,9 @@ const Footer: FunctionComponent<FooterType> = ({}) => {
           <div className={styles.aboutUs}>FAQs</div>
           <div className={styles.aboutUs}>Contact Us</div>
           <div className={styles.aboutUs}>Terms of Use</div>
-          <div className={styles.aboutUs}>Privacy Policy</div>
+          <div className={styles.aboutUs} onClick={() => navigate("/privacy")}>
+            Privacy Policy{" "}
+          </div>
           <div className={styles.linkedinParent}>
             <img className={styles.linkedinIcon} alt="" src="/linkedin.svg" />
             <img className={styles.linkedinIcon} alt="" src="/twitter.svg" />

@@ -11,6 +11,7 @@ import {
 // import Root from "./pages/Root.tsx";
 import ThriftPayLandingPage from "./pages/ThriftPayLandingPage.tsx";
 import ContactUs from "./pages/Contact.tsx";
+import Privacy from "./pages/Privacy.tsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
           },
           { path: "/home", element: <ThriftPayLandingPage /> },
           { path: "/contactus", element: <ContactUs /> },
+          { path: "/privacy", element: <Privacy /> },
         ],
       },
     ],
