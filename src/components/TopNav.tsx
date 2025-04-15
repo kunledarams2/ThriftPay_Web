@@ -1,7 +1,7 @@
 import { FunctionComponent, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Link, animateScroll as scroll, scroller } from "react-scroll";
-// import "./TopNav.css";
+import { scroller } from "react-scroll";
+// import "./TopNav.css";  Link, animateScroll as scroll,
 import styles from "./TopNav.module.css";
 import { NavigateFunction, useNavigate } from "react-router-dom";
 import logoIcon from "../assets/tnLogo.svg";
@@ -13,9 +13,9 @@ export type TopNavType = {
 const TopNav: FunctionComponent<TopNavType> = ({ className = "" }) => {
   let navigate: NavigateFunction = useNavigate();
 
-  const handleScrollToTop = () => {
-    scroll.scrollToTop();
-  };
+  // const handleScrollToTop = () => {
+  //   scroll.scrollToTop();
+  // };
 
   const [isOpenHomePage, setIsOpenHomePage] = useState(true);
   const [isOpenFAQPage, setIsOpenFAQPage] = useState(false);

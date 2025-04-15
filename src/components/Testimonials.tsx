@@ -1,6 +1,6 @@
 import { FunctionComponent, useEffect, useState } from "react";
 import "./Testimonials.css";
-import { motion, AnimatePresence } from "framer-motion";
+// import { motion, AnimatePresence } from "framer-motion";
 import styles from "./Testimonials.module.css";
 import customer1 from "../assets/customers/Frame 2147225966.svg";
 import customer2 from "../assets/customers/Frame 2147225967.svg";
@@ -94,16 +94,18 @@ const cardData = [
   },
 ];
 
-const Testimonials: FunctionComponent<TestimonialsType> = ({
-  className = "",
-}) => {
+const Testimonials: FunctionComponent<TestimonialsType> = (
+  {
+    // className = "",
+  }
+) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex > 0 ? prevIndex - 1 : cardData.length - 1
-    );
-  };
+  // const handlePrev = () => {
+  //   setCurrentIndex((prevIndex) =>
+  //     prevIndex > 0 ? prevIndex - 1 : cardData.length - 1
+  //   );
+  // };
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>

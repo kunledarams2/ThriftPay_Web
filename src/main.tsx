@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 // import Root from "./pages/Root.tsx";
 // import ThriftPayLandingPage from "./pages/ThriftPayLandingPage.tsx";
-import ContactUs from "./pages/Contact.tsx";
+// import ContactUs from "./pages/Contact.tsx";
 import Privacy from "./pages/Privacy.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import NewAboUtUs from "./pages/NewAboUtUs.tsx";
