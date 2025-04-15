@@ -9,9 +9,12 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 // import Root from "./pages/Root.tsx";
-import ThriftPayLandingPage from "./pages/ThriftPayLandingPage.tsx";
+// import ThriftPayLandingPage from "./pages/ThriftPayLandingPage.tsx";
 import ContactUs from "./pages/Contact.tsx";
 import Privacy from "./pages/Privacy.tsx";
+import HomePage from "./pages/HomePage.tsx";
+import NewAboUtUs from "./pages/NewAboUtUs.tsx";
+import NewThriftnestFAQ from "./pages/NewThriftnestFAQ.tsx";
 
 const router = createBrowserRouter([
   {
@@ -27,8 +30,9 @@ const router = createBrowserRouter([
             index: true,
             element: <Navigate to="/home" replace />,
           },
-          { path: "/home", element: <ThriftPayLandingPage /> },
-          { path: "/contactus", element: <ContactUs /> },
+          { path: "/home", element: <HomePage /> },
+          { path: "/aboutus", element: <NewAboUtUs /> },
+          { path: "/faqs", element: <NewThriftnestFAQ /> },
           { path: "/privacy", element: <Privacy /> },
         ],
       },

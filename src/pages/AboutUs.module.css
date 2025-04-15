@@ -1,0 +1,1754 @@
+.shadowIcon {
+    position: absolute;
+    top: 0.32px;
+    left: 138.2px;
+    width: 386.8px;
+    height: 818px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.mainIcon {
+    position: absolute;
+    top: 0.32px;
+    left: 138.2px;
+    width: 386.8px;
+    height: 818px;
+    object-fit: cover;
+}
+.pixel7ProMockupLabel {
+    position: absolute;
+    top: 16.72px;
+    left: 149px;
+    width: 360.8px;
+    height: 779.8px;
+    object-fit: cover;
+    mix-blend-mode: normal;
+}
+.checkIcon1 {
+    width: 21.2px;
+    position: relative;
+    height: 15.4px;
+}
+.checkIcon {
+    width: 46.1px;
+    border-radius: 96px;
+    background-color: #02894b;
+    height: 46.1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.idVerificationSubmitted {
+    width: 204.8px;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 14.72px;
+    font-weight: 500;
+    display: inline-block;
+}
+.supportingText {
+    align-self: stretch;
+    position: relative;
+    font-size: 8.96px;
+    line-height: 14.08px;
+    color: #666f89;
+}
+.idVerificationSubmittedSuccParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7.7px;
+}
+.checkIconParent {
+    position: absolute;
+    top: 164.56px;
+    left: 0px;
+    box-shadow: 0px 16px 20px -4px rgba(16, 24, 40, 0.1), 0px 6.400000095367432px 8px -4.8px rgba(16, 24, 40, 0.1);
+    border-radius: 6.4px;
+    background-color: #fff;
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25.6px 12.8px;
+    box-sizing: border-box;
+    gap: 15.4px;
+}
+.pixel7ProMockup {
+    position: absolute;
+    top: 1401px;
+    left: -632px;
+    width: 525px;
+    height: 299px;
+    overflow: hidden;
+    text-align: center;
+}
+.frameChild {
+    width: 10px;
+    position: relative;
+    border-radius: 100px;
+    background-color: #0b53cb;
+    height: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.aboutUs {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+}
+.frameGroup {
+    border-radius: 108px;
+    background-color: #edf9ff;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    gap: 8px;
+}
+.financialGrowth {
+    background: linear-gradient(90deg, #0b53cb, #a023fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.empoweringFinancialGrowthContainer1 {
+    width: 100%;
+}
+.empoweringFinancialGrowthContainer {
+    width: 1000px;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 72px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.atThrifnestWe {
+    width: 756px;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Urbanist;
+    color: #444a5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.empoweringFinancialGrowthOParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 60px;
+    color: #111217;
+}
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.downloadApp {
+    align-self: stretch;
+    background: linear-gradient(176.8deg, #edf9ff, rgba(244, 230, 255, 0.4));
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 160px 0px 120px;
+    text-align: center;
+    color: #0b53cb;
+}
+.frameItem {
+    width: 191px;
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.frameInner {
+    width: 191px;
+    position: relative;
+    height: 233px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.frameParent1 {
+    position: absolute;
+    top: -141.5px;
+    left: 0px;
+    height: 573px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.freeMockupOfFemaleHandHol {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 38.54px);
+    border-radius: 10.23px;
+    width: 77px;
+    height: 160.7px;
+    object-fit: cover;
+}
+.basicThriftPlan {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 4.36px;
+    font-weight: 600;
+}
+.startDate {
+    position: relative;
+    line-height: 3.49px;
+}
+.july142023 {
+    position: relative;
+    line-height: 3.49px;
+    color: #111217;
+}
+.startDateParent {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.9px;
+    font-size: 2.18px;
+    color: #90949e;
+}
+.basicThriftPlanIParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.2px;
+    font-size: 3.49px;
+}
+.icons {
+    width: 4.4px;
+    position: relative;
+    height: 4.4px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.div {
+    position: relative;
+    line-height: 3.93px;
+    font-weight: 500;
+}
+.perMember {
+    position: relative;
+    font-size: 2.18px;
+    line-height: 3.49px;
+    color: #666f89;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.9px;
+}
+.info2 {
+    flex: 1;
+    border-radius: 1.75px;
+    background-color: #fff;
+    border: 0.1px solid #d3d6de;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.7px;
+    gap: 1.7px;
+}
+.info2Parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.6px;
+}
+.progressBarChild {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: #00bc62;
+}
+.progressBarItem {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: #e4e5eb;
+}
+.progressBar {
+    flex: 1;
+    border-radius: 218.24px;
+    height: 1.7px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.progress {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.7px;
+}
+.avatarsIcon {
+    width: 32px;
+    position: relative;
+    border-radius: 10.91px;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.olawaleDamilare {
+    position: relative;
+    line-height: 3.49px;
+    font-weight: 500;
+}
+.johndoeexamplecom {
+    position: relative;
+    line-height: 3.49px;
+    color: #666f89;
+    display: none;
+}
+.olawaleDamilareParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.thriftCoordinator {
+    position: relative;
+    font-size: 1.75px;
+    line-height: 2.62px;
+    font-family: Inter;
+    color: #666f89;
+}
+.avatarsParent {
+    width: 64.6px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.7px;
+    font-size: 2.18px;
+}
+.thriftplanCard {
+    position: absolute;
+    top: 24.39px;
+    left: 13.07px;
+    border-radius: 1.75px;
+    background-color: #fff;
+    border: 0.1px solid #d3d6de;
+    box-sizing: border-box;
+    width: 67.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 3.5px;
+    gap: 2.6px;
+}
+.basicThriftPlan1 {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 20px;
+    font-weight: 600;
+}
+.basicThriftPlanIWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.icons3 {
+    width: 3.7px;
+    position: relative;
+    height: 3.7px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.7px;
+}
+.info21 {
+    flex: 1;
+    border-radius: 1.5px;
+    background-color: #fff;
+    border: 0.1px solid #d3d6de;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.5px;
+    gap: 1.5px;
+}
+.filledSlots {
+    position: relative;
+    font-size: 10px;
+    line-height: 16px;
+    color: #666f89;
+}
+.info2Group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3px;
+    font-size: 12px;
+}
+.startsOnJanuary {
+    position: relative;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.startsOnJanuary312023Wrapper {
+    border-radius: 0.75px;
+    background-color: #dff1ff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.7px 2.2px;
+}
+.daysToGo {
+    flex: 1;
+    position: relative;
+    line-height: 16px;
+    color: #90949e;
+    text-align: right;
+}
+.frameParent4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.9px;
+    font-size: 10px;
+}
+.thriftplanCard1 {
+    position: absolute;
+    top: 62.61px;
+    left: 91.28px;
+    box-shadow: 0px 20px 25px -5px rgba(16, 24, 40, 0.1), 0px 8px 10px -6px rgba(16, 24, 40, 0.1);
+    border-radius: 1.87px;
+    background-color: #fff;
+    border: 0.1px solid #e4e5eb;
+    box-sizing: border-box;
+    width: 61.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 3px;
+    gap: 3px;
+    font-size: 16px;
+}
+.freeMockupOfFemaleHandHolParent {
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 84px);
+    width: 167.1px;
+    height: 216px;
+}
+.frameWrapper {
+    align-self: stretch;
+    position: relative;
+    background-color: #fbf4ff;
+    height: 147px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frameIcon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 232px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.labelText {
+    flex: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.labelText1 {
+    flex: 1;
+    position: relative;
+    text-decoration: underline;
+    line-height: 4.58px;
+    color: #444a5b;
+    text-align: right;
+}
+.labelTextParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.5px;
+}
+.today {
+    align-self: stretch;
+    position: relative;
+    font-size: 2.54px;
+    line-height: 4.07px;
+    color: #666f89;
+}
+.icons6 {
+    width: 5.1px;
+    position: relative;
+    height: 5.1px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.iconsWrapper {
+    border-radius: 2.03px;
+    background-color: #ffdede;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.slot4Payout {
+    position: relative;
+    line-height: 4.58px;
+    color: #90949e;
+}
+.info22 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5px;
+}
+.div5 {
+    position: relative;
+    font-size: 3.56px;
+    line-height: 5.59px;
+    font-weight: 500;
+    color: #f85656;
+}
+.info2Container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0px;
+}
+.frameParent7 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.1px;
+}
+.iconsContainer {
+    border-radius: 2.03px;
+    background-color: #fbf4ff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.chinweCynthia {
+    position: relative;
+    line-height: 4.58px;
+    font-weight: 500;
+}
+.div6 {
+    position: relative;
+    font-size: 3.56px;
+    line-height: 5.59px;
+    font-weight: 500;
+    color: #a023fa;
+}
+.plan1 {
+    width: 83.4px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3.1px;
+}
+.dec302023 {
+    align-self: stretch;
+    position: relative;
+    line-height: 4.07px;
+}
+.frameParent9 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.1px;
+    font-size: 3.05px;
+    color: #111217;
+}
+.plan2 {
+    width: 83.4px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3.1px;
+    font-size: 2.54px;
+    color: #666f89;
+}
+.plan3 {
+    width: 83.4px;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3.1px;
+}
+.plan1Parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.1px;
+}
+.frameParent6 {
+    position: absolute;
+    top: calc(50% - 32px);
+    right: 92.5px;
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1), 0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+    border-radius: 2.03px;
+    background-color: #fff;
+    width: 91.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4.1px;
+    box-sizing: border-box;
+    gap: 4.1px;
+}
+.memberReceivingPayout {
+    align-self: stretch;
+    position: relative;
+    line-height: 6.55px;
+    font-weight: 500;
+}
+.avatarsIcon1 {
+    width: 32px;
+    position: relative;
+    border-radius: 18.18px;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.olawaleDamilare3 {
+    position: relative;
+    line-height: 6.55px;
+    font-weight: 500;
+}
+.johndoeexamplecom1 {
+    position: relative;
+    font-size: 3.64px;
+    line-height: 5.82px;
+    color: #666f89;
+    display: none;
+}
+.olawaleDamilareGroup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.bagde {
+    border-radius: 7.27px;
+    background-color: #eefff6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5px 2.9px;
+    font-size: 10px;
+    color: #087343;
+    font-family: Urbanist;
+}
+.avatarsGroup {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.4px;
+    color: #111217;
+}
+.memberReceivingPayoutParent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.9px;
+}
+.memberReceivingPayment {
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 60px);
+    box-shadow: 0px 11.363636016845703px 14.2px -2.84px rgba(16, 24, 40, 0.1), 0px 4.545454502105713px 5.68px -3.41px rgba(16, 24, 40, 0.1);
+    border-radius: 3.64px;
+    background-color: #fff;
+    border: 0.2px solid #e4e5eb;
+    box-sizing: border-box;
+    width: 119.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5.8px;
+    font-size: 4.36px;
+    color: #666f89;
+}
+.heading {
+    flex: 1;
+    position: relative;
+    line-height: 5.2px;
+    font-weight: 500;
+}
+.avatarsIcon2 {
+    width: 7.6px;
+    position: relative;
+    border-radius: 11.81px;
+    height: 7.6px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.johnDoe {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+}
+.johnDoeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.avatarsContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.8px;
+}
+.bagde1 {
+    border-radius: 4.73px;
+    background-color: #eefff6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9px 1.9px;
+    font-size: 10px;
+    color: #02894b;
+}
+.thriftMember {
+    width: 69.9px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2.8px 0px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 12px;
+    color: #111217;
+}
+.jd {
+    position: absolute;
+    top: calc(50% - 2.62px);
+    left: calc(50% - 2.91px);
+    line-height: 22px;
+    font-weight: 600;
+}
+.avatars {
+    width: 7.6px;
+    position: relative;
+    border-radius: 11.81px;
+    background-color: #a491d3;
+    height: 7.6px;
+}
+.johnDoeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    font-size: 12px;
+    color: #111217;
+}
+.bagde2 {
+    border-radius: 4.73px;
+    background-color: #eefff6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9px 1.9px;
+    text-align: left;
+    font-size: 10px;
+    color: #02894b;
+}
+.thriftMember1 {
+    width: 69.9px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2.8px 0px;
+    box-sizing: border-box;
+}
+.avatars1 {
+    width: 7.6px;
+    position: relative;
+    border-radius: 11.81px;
+    background-color: #b347ff;
+    height: 7.6px;
+}
+.jd2 {
+    position: absolute;
+    top: calc(50% - 2.62px);
+    left: calc(50% - 3.91px);
+    line-height: 22px;
+    font-weight: 600;
+}
+.avatars3 {
+    width: 7.6px;
+    position: relative;
+    border-radius: 11.81px;
+    background-color: #0a7bff;
+    height: 7.6px;
+}
+.bagde5 {
+    border-radius: 4.73px;
+    background-color: #f4f5f7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9px 1.9px;
+    text-align: left;
+    font-size: 10px;
+    color: #444a5b;
+}
+.thriftMemberParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 14px;
+    color: #fafafb;
+    font-family: Urbanist;
+}
+.recentActivities {
+    position: absolute;
+    top: 81px;
+    right: 7.5px;
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1), 0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+    border-radius: 2.36px;
+    background-color: #fff;
+    border: 0.1px solid #e4e5eb;
+    box-sizing: border-box;
+    width: 77.5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3.8px 3.8px 0.9px;
+    gap: 3.8px;
+    font-size: 3.31px;
+}
+.frameParent5 {
+    align-self: stretch;
+    position: relative;
+    background-color: #edf9ff;
+    height: 174px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 3.05px;
+    font-family: Inter;
+}
+.frameParent2 {
+    position: absolute;
+    top: -141.5px;
+    left: 207px;
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.frameDiv {
+    position: absolute;
+    top: calc(50% - 144.5px);
+    left: 0px;
+    width: 399px;
+    height: 287px;
+    opacity: 0.2;
+}
+.frameParent13 {
+    position: absolute;
+    top: -174px;
+    left: 0px;
+    height: 573px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.frameParent14 {
+    position: absolute;
+    top: -174.5px;
+    left: 207px;
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.frameParent12 {
+    position: absolute;
+    top: calc(50% - 8.5px);
+    left: 415px;
+    width: 399px;
+    height: 224px;
+    opacity: 0.2;
+}
+.frameParent25 {
+    position: absolute;
+    top: -174.5px;
+    left: 0px;
+    height: 573px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.frameParent24 {
+    position: absolute;
+    top: 53px;
+    left: 830px;
+    width: 399px;
+    height: 224px;
+    opacity: 0.2;
+}
+.frameParent38 {
+    position: absolute;
+    top: -174.5px;
+    left: 209px;
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.frameParent36 {
+    position: absolute;
+    top: 65px;
+    left: 1245px;
+    width: 401px;
+    height: 224px;
+    opacity: 0.2;
+}
+.frameChild10 {
+    position: absolute;
+    top: 109px;
+    left: 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+    width: 1443px;
+    height: 183px;
+}
+.frameContainer {
+    align-self: stretch;
+    position: relative;
+    background-color: #fff;
+    height: 289px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 2.62px;
+    font-family: Urbanist;
+}
+.containerChild {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #dfe1e7;
+    box-sizing: border-box;
+    height: 81px;
+}
+.logoIcon {
+    width: 46.5px;
+    position: relative;
+    height: 46.5px;
+}
+.logoContainer {
+    border-radius: 7.2px;
+    background-color: #fff;
+    border: 0.6px solid #e4e5eb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px;
+}
+.tagline {
+    width: 780px;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 90px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke: 1px #0a7bff;
+    opacity: 0.6;
+}
+.content {
+    align-self: stretch;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.container1 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px 200px 64px;
+    gap: 10px;
+    text-align: center;
+    font-size: 74.25px;
+    color: transparent;
+}
+.ourMission {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 34px;
+    font-weight: 600;
+}
+.toMakeSavings {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Urbanist;
+    color: #666f89;
+}
+.ourMissionParent {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 17px;
+}
+.frameParent48 {
+    width: 841px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 64px;
+}
+.frameWrapper4 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64px 300px;
+    font-size: 28px;
+}
+.containerInner {
+    align-self: stretch;
+    position: relative;
+    border-top: 1px solid #dfe1e7;
+    box-sizing: border-box;
+    height: 1px;
+}
+.title {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-weight: 600;
+}
+.weGrewUp {
+    font-family: Urbanist;
+}
+.ajo {
+    font-weight: 600;
+    font-family: Urbanist;
+}
+.weGrewUpSeeingThriftSavin {
+    margin: 0;
+}
+.bodyText {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666f89;
+    font-family: Urbanist;
+}
+.textBlock {
+    align-self: stretch;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.container2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 300px 64px;
+    gap: 64px;
+    font-size: 33px;
+}
+.ourCoreValuesContainer {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 56px;
+    font-weight: 600;
+}
+.trustTransparency {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-weight: 600;
+    z-index: 0;
+}
+.everythingWeBuild {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Urbanist;
+    color: #666f89;
+    z-index: 1;
+}
+.frameIcon1 {
+    width: 384px;
+    position: absolute;
+    margin: 0 !important;
+    right: -51.5px;
+    bottom: -0.52px;
+    /* max-height: 100%; */
+    height: 300px;
+    overflow: hidden;
+    object-fit: contain;
+    z-index: 2;
+}
+.trustTransparencyParent {
+    flex: 1;
+    border-radius: 12px;
+    background-color: #edf9ff;
+    height: 480px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 17px;
+}
+.frameIcon2 {
+    width: 350px;
+    position: absolute;
+    margin: 0 !important;
+    /* right: -6px; */
+    bottom: -0.52px;
+    max-height: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    z-index: 2;
+}
+.communityFirstParent {
+    flex: 1;
+    border-radius: 12px;
+    background-color: #fbf4ff;
+    height: 480px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 17px;
+}
+.frameParent50 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.frameIcon3 {
+    width: 384px;
+    position: absolute;
+    margin: 0 !important;
+    right: -41.5px;
+    bottom: -2.52px;
+    /* max-height: 100%; */
+    height: 300px;
+    overflow: hidden;
+    object-fit: contain;
+    z-index: 2;
+}
+.frameIcon4 {
+    width: 284px;
+    position: absolute;
+    margin: 0 !important;
+    right: 16px;
+    top: 150px;
+    /* bottom: -109.52px; */
+    /* max-height: 100%; */
+    height: 400px;
+    overflow: hidden;
+    object-fit: contain;
+    z-index: 2;
+}
+.frameParent49 {
+    width: 847px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    font-size: 33px;
+}
+.ourCoreValuesParent {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 80px 100px;
+    gap: 10px;
+    font-size: 48px;
+}
+.downloadAppParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.downloadAppChild {
+    position: absolute;
+    height: 203.74%;
+    width: 126.9%;
+    top: -37.76%;
+    right: -12.18%;
+    bottom: -65.98%;
+    left: -14.73%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    display: none;
+}
+.ellipseDiv {
+    width: 380.4px;
+    position: relative;
+    box-shadow: -14px 24px 47.5px #00a1ff inset;
+    border-radius: 50%;
+    background-color: #0b53cb;
+    height: 380.4px;
+    transform:  rotate(-53deg);
+    opacity: 0.2;
+}
+.downloadAppInner {
+    position: absolute;
+    top: calc(50% + 253.65px);
+    left: calc(50% - 536.85px);
+    background-color: #0b53cb;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    opacity: 0.82;
+}
+.transformYourSavings {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 72px;
+    font-weight: 600;
+}
+.downloadNowAnd {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Inter;
+    color: #fafafb;
+}
+.appStoreIcon {
+    width: 180px;
+    position: relative;
+    height: 52px;
+}
+.googlePlayIcon {
+    width: 144px;
+    position: relative;
+    height: 41.6px;
+}
+.appStoreParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.left1 {
+    position: absolute;
+    top: 62px;
+    left: 80px;
+    width: 620px;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.downloadAppItem {
+    position: absolute;
+    top: 426px;
+    left: 694px;
+    filter: blur(128.2px);
+    background-color: #0b53cb;
+    width: 752px;
+    height: 224px;
+    overflow: hidden;
+}
+.downloadAppChild1 {
+    position: absolute;
+    top: 63px;
+    left: 715px;
+    filter: blur(128.2px);
+    background-color: #0b53cb;
+    width: 722px;
+    height: 224px;
+    overflow: hidden;
+}
+.freeMockupOfFemaleHandHol4 {
+    position: absolute;
+    top: 45px;
+    left: 712px;
+    width: 686px;
+    height: 823px;
+    object-fit: cover;
+}
+.downloadApp1 {
+    align-self: stretch;
+    position: relative;
+    border-radius: 44px;
+    background: linear-gradient(175.1deg, #2f80ed 6.59%, #0b53cb 74.57%);
+    height: 494px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.downloadAppWrapper {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 64px 100px;
+    box-sizing: border-box;
+}
+.logoIcon1 {
+    width: 35.9px;
+    position: relative;
+    height: 35.9px;
+}
+.thriftnest {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 17.93px;
+    font-weight: 600;
+}
+.logoGroup {
+    width: 120px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.5px;
+}
+.autoAddedFrame {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    color: #0b53cb;
+}
+.yourGatewayTo {
+    width: 420px;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Inter;
+    display: none;
+}
+.ogunHousingEstate {
+    width: 277px;
+    position: relative;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.ogunHousingEstateOgunStatParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 14px;
+}
+.logo {
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14.35px;
+}
+.faqs {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.logoParent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.content1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.dividerIcon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.copyrightThriftnest {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+.plot11Block29Road29OgunParent {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.copyrightThriftnest2025Parent {
+    width: 948px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.linkedinIcon {
+    width: 30px;
+    position: relative;
+    height: 30px;
+}
+.facebookIcon1 {
+    width: 30px;
+    position: relative;
+    height: 30px;
+    object-fit: cover;
+}
+.linkedinParent {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.frameParent53 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 14px;
+}
+.footer {
+    align-self: stretch;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px 100px;
+    gap: 32px;
+    font-size: 16px;
+    color: #444a5b;
+    font-family: Urbanist;
+}
+.frameParent52 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 60px;
+    color: #fff;
+}
+.frameParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1441px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: Sora;
+}
+.logoIcon2 {
+    width: 38.7px;
+    position: relative;
+    height: 38.7px;
+}
+.brandName {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 19.37px;
+    font-weight: 600;
+}
+.logoAndText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.8px;
+    z-index: 0;
+    text-align: center;
+}
+.button1 {
+    position: relative;
+    line-height: 22px;
+    font-weight: 600;
+}
+.button {
+    width: 94px;
+    border-radius: 8px;
+    background-color: #fafafb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+}
+.button2 {
+    width: 94px;
+    border-radius: 8px;
+    background-color: #0b53cb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+    color: #fafafb;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    z-index: 1;
+    font-size: 14px;
+    color: #4f4f4f;
+}
+.text {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.text1 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.textWrapper {
+    box-shadow: 0px 4px 6px -1px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.1);
+    border-radius: 8px;
+    background-color: #f5f7fa;
+    border: 1px solid rgba(10, 123, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 20px;
+    color: #333;
+}
+.container3 {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 20.35px);
+    left: calc(50% - 132px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    z-index: 2;
+    font-size: 16px;
+    color: #666f89;
+}
+.navbar {
+    position: absolute;
+    top: 29px;
+    left: calc(50% - 497px);
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #e4e5eb;
+    box-sizing: border-box;
+    width: 1049px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px 16px 24px;
+    gap: 0px;
+    font-size: 15.5px;
+    color: #0b53cb;
+    font-family: Urbanist;
+}
+.newThriftnestAboutUs {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 3500px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12.8px;
+    color: #111217;
+    font-family: Inter;
+}
+

@@ -29,19 +29,27 @@
   max-width: 100%;
 }
 .how-does-the1 {
+  /* align-self: stretch;
+  position: relative;
+
+  font-size: 20px;
+  line-height: 28px;
+  /* font-family: Inter; */
+  /* color: #444a5b;  */
+
   align-self: stretch;
   position: relative;
   text-align: start;
   font-size: 20px;
   line-height: 28px;
-  font-family: Inter;
+  font-family: Urbanist;
   color: #444a5b;
 }
 .faq {
   align-self: stretch;
   background-color: #fff;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid #e4e5eb;
+  border-bottom: 1px solid #e4e5eb;
   box-sizing: border-box;
   overflow: hidden;
   display: flex;

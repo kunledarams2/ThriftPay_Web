@@ -1,0 +1,928 @@
+.shadowIcon {
+    position: absolute;
+    top: 0.32px;
+    left: 138.2px;
+    width: 386.8px;
+    height: 818px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.mainIcon {
+    position: absolute;
+    top: 0.32px;
+    left: 138.2px;
+    width: 386.8px;
+    height: 818px;
+    object-fit: cover;
+}
+.checkIcon1 {
+    width: 21.2px;
+    position: relative;
+    height: 15.4px;
+}
+.checkIcon {
+    width: 46.1px;
+    border-radius: 96px;
+    background-color: #02894b;
+    height: 46.1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.idVerificationSubmitted {
+    width: 204.8px;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 14.72px;
+    font-weight: 500;
+    display: inline-block;
+}
+.supportingText {
+    align-self: stretch;
+    position: relative;
+    font-size: 8.96px;
+    line-height: 14.08px;
+    color: #666f89;
+}
+.idVerificationSubmittedSuccParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7.7px;
+}
+.checkIconParent {
+    position: absolute;
+    top: 164.56px;
+    left: 0px;
+    box-shadow: 0px 16px 20px -4px rgba(16, 24, 40, 0.1), 0px 6.400000095367432px 8px -4.8px rgba(16, 24, 40, 0.1);
+    border-radius: 6.4px;
+    background-color: #fff;
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25.6px 12.8px;
+    box-sizing: border-box;
+    gap: 15.4px;
+}
+.pixel7ProMockup {
+    position: absolute;
+    top: 1401px;
+    left: -632px;
+    width: 525px;
+    height: 299px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12.8px;
+    font-family: Inter;
+}
+.howDoesThe {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 34px;
+    font-weight: 600;
+}
+.icons {
+    width: 32px;
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.howDoesTheThriftPlanWorkParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.howDoesThe1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Urbanist;
+    color: #444a5b;
+}
+.faq {
+    align-self: stretch;
+    background-color: #fff;
+    border-bottom: 1px solid #e4e5eb;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64px 16px;
+    gap: 24px;
+}
+.faq1 {
+    align-self: stretch;
+    background-color: #fff;
+    border-top: 1px solid #e4e5eb;
+    border-bottom: 1px solid #e4e5eb;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64px 16px;
+    gap: 24px;
+}
+.faqs {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.faqsWrapper {
+    position: absolute;
+    top: 528px;
+    left: calc(50% - 716px);
+    width: 1438px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px 300px;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+.frequentlyAskedQuestions {
+    width: 529px;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 72px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.yourQuestionsAnswered {
+    width: 365px;
+    position: relative;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+    line-height: 34px;
+    color: #444a5b;
+    display: flex;
+    align-items: center;
+}
+.frequentlyAskedQuestionsParent {
+    width: 787px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.magnifyingGlassIcon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.askAQuestion {
+    width: 149px;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 23px;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.magnifyingGlassParent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.search {
+    position: absolute;
+    top: calc(50% - 11.5px);
+    left: calc(50% - 31px);
+    letter-spacing: -0.01em;
+    line-height: 23px;
+    font-weight: 600;
+}
+.searchWrapper {
+    width: 168px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #333;
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: #fff;
+}
+.frameContainer {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #fafafb;
+    border: 1px solid #e4e5eb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 13px 16px;
+    gap: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #90949e;
+    font-family: Urbanist;
+}
+.frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 26px;
+}
+.general {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 23px;
+    font-weight: 600;
+}
+.generalWrapper {
+    border-radius: 100px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 19px;
+    color: #fff;
+}
+.thriftPlanWrapper {
+    border-radius: 100px;
+    background-color: #f4f5f7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 19px;
+}
+.frameParent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    text-align: center;
+    font-size: 20px;
+    color: #90949e;
+    font-family: Urbanist;
+}
+.frameParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid #e4e5eb;
+    box-sizing: border-box;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 160px 300px 40px;
+    gap: 56px;
+}
+.contactUs {
+    width: 217px;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 72px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.cantFindWhat {
+    width: 755px;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Urbanist;
+    color: #444a5b;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactUsParent {
+    width: 787px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.emailSupport {
+    width: 174px;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 72px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    flex-shrink: 0;
+}
+.sendUsAn {
+    width: 374px;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Urbanist;
+    color: #444a5b;
+    display: flex;
+    align-items: center;
+}
+.emailSupportParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.infothriftnestco {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Urbanist;
+    color: #0b53cb;
+}
+.frameParent5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.callUs {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 72px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    flex-shrink: 0;
+}
+.weRecieveCalls {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Inter;
+    color: #444a5b;
+}
+.div {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    text-decoration: underline;
+    line-height: 24px;
+    font-family: Urbanist;
+    color: #0b53cb;
+}
+.frameParent4 {
+    width: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 54px;
+}
+.label {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+}
+.input {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+.field {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #e4e5eb;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    color: #666f89;
+}
+.field3 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #e4e5eb;
+}
+.inputtext3 {
+    align-self: stretch;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.form {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.button1 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.button {
+    border-radius: 8px;
+    background-color: #0b53cb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 36px;
+    color: #fafafb;
+}
+.formWrapper {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 32px;
+    gap: 32px;
+    font-size: 16px;
+    color: #444a5b;
+    font-family: Urbanist;
+}
+.frameParent3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 53px;
+    font-size: 24px;
+}
+.frameParent2 {
+    position: absolute;
+    top: 2257px;
+    left: 0px;
+    background-color: #fafafb;
+    width: 1442px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px 100px;
+    box-sizing: border-box;
+    gap: 64px;
+}
+.downloadAppChild {
+    position: absolute;
+    height: 203.74%;
+    width: 126.9%;
+    top: -37.76%;
+    right: -12.18%;
+    bottom: -65.98%;
+    left: -14.73%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    display: none;
+}
+.frameChild {
+    width: 380.4px;
+    position: relative;
+    box-shadow: -14px 24px 47.5px #00a1ff inset;
+    border-radius: 50%;
+    background-color: #0b53cb;
+    height: 380.4px;
+    transform:  rotate(-53deg);
+    opacity: 0.2;
+}
+.downloadAppInner {
+    position: absolute;
+    top: calc(50% + 253.65px);
+    left: calc(50% - 536.85px);
+    background-color: #0b53cb;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    opacity: 0.82;
+}
+.transformYourSavings {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 72px;
+    font-weight: 600;
+}
+.downloadNowAnd {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Inter;
+    color: #fafafb;
+}
+.appStoreIcon {
+    width: 180px;
+    position: relative;
+    height: 52px;
+}
+.googlePlayIcon {
+    width: 144px;
+    position: relative;
+    height: 41.6px;
+}
+.appStoreParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.left {
+    position: absolute;
+    top: 62px;
+    left: 80px;
+    width: 620px;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.downloadAppItem {
+    position: absolute;
+    top: 426px;
+    left: 694px;
+    filter: blur(128.2px);
+    background-color: #0b53cb;
+    width: 752px;
+    height: 224px;
+    overflow: hidden;
+}
+.downloadAppChild1 {
+    position: absolute;
+    top: 63px;
+    left: 715px;
+    filter: blur(128.2px);
+    background-color: #0b53cb;
+    width: 722px;
+    height: 224px;
+    overflow: hidden;
+}
+.freeMockupOfFemaleHandHol {
+    position: absolute;
+    top: 45px;
+    left: 712px;
+    width: 686px;
+    height: 823px;
+    object-fit: cover;
+}
+.downloadApp {
+    align-self: stretch;
+    position: relative;
+    border-radius: 44px;
+    background: linear-gradient(175.1deg, #2f80ed 6.59%, #0b53cb 74.57%);
+    height: 494px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.downloadAppWrapper {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 64px 100px;
+    box-sizing: border-box;
+}
+.logoIcon {
+    width: 35.9px;
+    position: relative;
+    height: 35.9px;
+}
+.thriftnest {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 17.93px;
+    font-weight: 600;
+}
+.logoGroup {
+    width: 120px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.5px;
+}
+.autoAddedFrame {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    color: #0b53cb;
+}
+.yourGatewayTo {
+    width: 420px;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Inter;
+    display: none;
+}
+.ogunHousingEstate {
+    width: 277px;
+    position: relative;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.ogunHousingEstateOgunStatParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 14px;
+}
+.logo {
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14.35px;
+}
+.aboutUs {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.logoParent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.dividerIcon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.copyrightThriftnest {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+.plot11Block29Road29OgunParent {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.copyrightThriftnest2025Parent {
+    width: 948px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.linkedinIcon {
+    width: 30px;
+    position: relative;
+    height: 30px;
+}
+.facebookIcon1 {
+    width: 30px;
+    position: relative;
+    height: 30px;
+    object-fit: cover;
+}
+.linkedinParent {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.frameParent8 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 14px;
+}
+.footer {
+    align-self: stretch;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px 100px;
+    gap: 32px;
+    font-size: 16px;
+    color: #444a5b;
+    font-family: Urbanist;
+}
+.frameParent7 {
+    position: absolute;
+    bottom: -0.48px;
+    left: 0px;
+    width: 1441px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 60px;
+    color: #fff;
+}
+.logoIcon1 {
+    width: 38.7px;
+    position: relative;
+    height: 38.7px;
+}
+.brandName {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 19.37px;
+    font-weight: 600;
+}
+.logoAndText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.8px;
+    z-index: 0;
+    text-align: center;
+}
+.button3 {
+    position: relative;
+    line-height: 22px;
+    font-weight: 600;
+}
+.button2 {
+    width: 94px;
+    border-radius: 8px;
+    background-color: #fafafb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+}
+.button4 {
+    width: 94px;
+    border-radius: 8px;
+    background-color: #0b53cb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+    color: #fafafb;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    z-index: 1;
+    font-size: 14px;
+    color: #4f4f4f;
+}
+.text {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.text2 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.textWrapper {
+    box-shadow: 0px 4px 6px -1px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.1);
+    border-radius: 8px;
+    background-color: #f5f7fa;
+    border: 1px solid rgba(10, 123, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 20px;
+    color: #333;
+}
+.container {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 20.35px);
+    left: calc(50% - 131.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    z-index: 2;
+    font-size: 16px;
+    color: #666f89;
+}
+.navbar {
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 524px);
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #e4e5eb;
+    box-sizing: border-box;
+    width: 1049px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px 16px 24px;
+    gap: 0px;
+    font-size: 15.5px;
+    color: #0b53cb;
+    font-family: Urbanist;
+}
+.newThriftnestFaq {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 2250px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 40px;
+    color: #111217;
+    font-family: Sora;
+}
+

@@ -29,16 +29,6 @@ const ThriftPayLandingPage: FunctionComponent = () => {
 
         <div className="frame-parent">
           <FrameComponent3 />
-          {/* <FrameComponent1 /> */}
-          {/* Link to scroll to the target element */}
-          {/* <Link to="targetElement" smooth={true} duration={500}>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              Scroll to Target Element
-            </motion.button>
-          </Link> */}
 
           <div className="why-us">
             <img className="divider-icon" alt="" src="/divider.svg" />
@@ -84,10 +74,6 @@ const ThriftPayLandingPage: FunctionComponent = () => {
       <Testimonials />
       <FrameComponent1 />
       <FrameComponent />
-      {/* <FrameComponent3 /> */}
-      {/* <FrameComponent2 /> */}
-
-      {/* <Footer /> */}
     </div>
   );
 };

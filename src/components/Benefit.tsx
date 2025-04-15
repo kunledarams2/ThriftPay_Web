@@ -1,27 +1,26 @@
 import { FunctionComponent } from "react";
-import "./Benefit.css";
+// import "./Benefit.css";
+import styles from "./ThriftGroups.module.css";
 
 export type BenefitType = {
-  className?: string;
-  seamlessManagement?: string;
-  effortlesslyOrganizeYourG?: string;
+  // className?: string;
+  title?: string;
+  body?: string;
+  icon: string;
 };
 
 const Benefit: FunctionComponent<BenefitType> = ({
-  className = "",
-  seamlessManagement,
-  effortlesslyOrganizeYourG,
+  // className = "",
+  title,
+  body,
+  icon,
 }) => {
   return (
-    <div className={`benefit ${className}`}>
-      <div className="benefit-management-icon">
-        <img className="icons24" loading="lazy" alt="" src="/icons-27.svg" />
-      </div>
-      <div className="benefit-management-description">
-        <h2 className="seamless-management">{seamlessManagement}</h2>
-        <div className="effortlessly-organize-your">
-          {effortlesslyOrganizeYourG}
-        </div>
+    <div className={styles.benefit3}>
+      <img className={styles.icons3} alt="" src={icon} />
+      <div className={styles.seamlessManagementParent}>
+        <div className={styles.benefitTitle}> {title}</div>
+        <div className={styles.benefitDescription}> {body}</div>
       </div>
     </div>
   );

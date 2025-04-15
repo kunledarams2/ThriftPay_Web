@@ -54,8 +54,6 @@ const FAQ: FunctionComponent<FAQType> = ({
             />
           )}
         </motion.div>
-
-        {/* <img className="icons34" loading="lazy" alt="" src={icons} /> */}
       </div>
 
       <motion.div
@@ -64,8 +62,6 @@ const FAQ: FunctionComponent<FAQType> = ({
         transition={{ type: "spring", stiffness: 50 }}
         style={{
           overflow: "hidden",
-          // backgroundColor: "lightblue",
-          // padding: isOpen ? "20px" : "0 20px",
           textAlign: "center",
         }}
       >
@@ -73,9 +69,6 @@ const FAQ: FunctionComponent<FAQType> = ({
           <div className="how-does-the1">{howDoesTheThriftPlanWork1}</div>
         )}
       </motion.div>
-      {/* {showHowDoesThe && (
-        <div className="how-does-the1">{howDoesTheThriftPlanWork1}</div>
-      )} */}
     </div>
   );
 };

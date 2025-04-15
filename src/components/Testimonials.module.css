@@ -1,0 +1,227 @@
+.whatOurCustomers {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 72px;
+    font-weight: 600;
+}
+.frameChild {
+    width: 151px;
+    position: relative;
+    height: 17px;
+}
+.whatOurCustomersSayParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.hearFormOur {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Inter;
+    text-align: center;
+}
+.frameGroup {
+    width: 688px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1px;
+}
+.starIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.iLoveThe {
+    width: 489px;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 28px;
+    font-weight: 600;
+    display: inline-block;
+}
+.jennyWilson {
+    position: relative;
+    line-height: 28px;
+}
+.accountantAtNestle {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Urbanist;
+    color: #90949e;
+}
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 20px;
+    font-family: Inter;
+}
+.contentWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 27px;
+}
+.testimonial {
+    position: absolute;
+    top: 144px;
+    left: calc(50% - 278px);
+    box-shadow: 0px 24px 24px -12px rgba(54, 74, 54, 0.06), 0px 1px 2px rgba(87, 92, 86, 0.16), 0px 0px 0px 1px rgba(18, 105, 63, 0.08);
+    border-radius: 16px;
+    background-color: #fff;
+    width: 557px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 40px;
+    box-sizing: border-box;
+    gap: 24px;
+}
+.frameItem {
+    position: absolute;
+    top: 0px;
+    left: 84px;
+    border-radius: 100px;
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.78;
+}
+.frameInner {
+    position: absolute;
+    top: 423px;
+    left: 10px;
+    border-radius: 100px;
+    width: 123px;
+    height: 123px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.78;
+}
+.frameIcon {
+    position: absolute;
+    top: 246px;
+    left: 133px;
+    border-radius: 100px;
+    width: 136px;
+    height: 136px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.78;
+}
+.frameChild1 {
+    position: absolute;
+    top: 209px;
+    left: 0px;
+    border-radius: 100px;
+    width: 74px;
+    height: 74px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.78;
+}
+.frameContainer {
+    position: absolute;
+    top: calc(50% - 273px);
+    left: 0px;
+    width: 269px;
+    height: 546px;
+}
+.frameChild2 {
+    position: absolute;
+    top: 0px;
+    left: 69px;
+    border-radius: 100px;
+    width: 146px;
+    height: 146px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.frameChild3 {
+    position: absolute;
+    top: 401px;
+    left: 132px;
+    border-radius: 100px;
+    width: 165px;
+    height: 165px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.78;
+}
+.frameChild4 {
+    position: absolute;
+    top: 208px;
+    left: 205px;
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.78;
+}
+.frameChild5 {
+    position: absolute;
+    top: 251px;
+    left: 0px;
+    border-radius: 100px;
+    width: 112px;
+    height: 112px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.78;
+}
+.frameDiv {
+    position: absolute;
+    top: calc(50% - 283px);
+    left: 943px;
+    width: 297px;
+    height: 566px;
+}
+.testimonialParent {
+    width: 1242px;
+    position: relative;
+    height: 588px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Urbanist;
+}
+.frameParent {
+    width: 100%;
+    position: relative;
+    background-color: #fafafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 120px 100px;
+    box-sizing: border-box;
+    gap: 33px;
+    text-align: left;
+    font-size: 60px;
+    color: #111217;
+    font-family: Sora;
+}
+
