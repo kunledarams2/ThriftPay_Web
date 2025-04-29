@@ -11,30 +11,6 @@ function App() {
       <Footer />
     </>
   );
-
-  // const router = createBrowserRouter([
-  //   {
-  //     // path: "/",
-  //     // element: <ThriftPayLandingPage />,
-  //     // // errorElement: <ErrorPage />,
-  //     children: [
-  //       {
-  //         path: "/",
-  //         element: <Root />,
-  //         children: [
-  //           {
-  //             index: true,
-  //             element: <Navigate to="/home" replace />,
-  //           },
-  //           { path: "/home", element: <ThriftPayLandingPage /> },
-  //           { path: "/contactus", element: <ContactUs /> },
-  //         ],
-  //       },
-  //     ],
-  //   },
-  // ]);
-
-  // return <RouterProvider router={router} />;
 }
 
 export default App;

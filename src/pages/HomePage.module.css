@@ -539,6 +539,7 @@
     height: 750px;
     font-size: 72px;
     align-items: center;
+ 
     /* background-color: #ce2424; */
     /* font-family: Urbanist; */
 }
@@ -1219,6 +1220,7 @@
     transform:  rotate(-90deg);
     transform-origin: 0 0;
     display: none;
+    background-color: #00bc62;
 }
 .stepTitle1 {
     position: absolute;
@@ -1381,8 +1383,8 @@
     gap: 24px;
     text-align: left;
     font-size: 23px;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
     /* background-color: #00bc62; */
    
     /* font-family: Inter; */
@@ -4787,8 +4789,11 @@
 .newThriftnestNewHeroSectio {
     width: 100%;
     position: relative;
-    /* background-color: #fff; */
-    height: 6801px;
+    /* background-color: #df0303; */
+    height: 6500px;
+    /* margin-left: 100px; */
+   
+    /* margin-right: 100px; */
     /* overflow: hidden; */
     /* text-align: left; */
     /* font-size: 48px; */
@@ -4796,4 +4801,197 @@
     /* color: #111217; */
     /* font-family: Sora; */
 }
+
+
+
+
+
+
+.heroSectionChild {
+    position: absolute;
+    top: 320px;
+    left: 877px;
+    filter: blur(200px);
+    border-radius: 50%;
+    background-color: #a023fa;
+    width: 191px;
+    height: 191px;
+    opacity: 0.4;
+}
+.heroSectionItem {
+    position: absolute;
+    top: 308px;
+    left: 1039px;
+    filter: blur(200px);
+    border-radius: 50%;
+    background-color: #0b53cb;
+    width: 169px;
+    height: 169px;
+    opacity: 0.4;
+}
+.mainHeading {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 80px;
+    font-weight: 600;
+}
+.subheading {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Urbanist;
+    color: #444a5b;
+}
+.heroTextContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.heroTextContainer {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.button1 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.button {
+    border-radius: 8px;
+    background-color: #0b53cb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 36px;
+    font-size: 16px;
+    color: #fafafb;
+    font-family: Urbanist;
+}
+.heroText {
+    position: absolute;
+    top: 229px;
+    left: 100px;
+    width: 548px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.icon {
+    position: absolute;
+    top: 143px;
+    left: 663px;
+    width: 326px;
+    height: 490px;
+    object-fit: cover;
+}
+.expressiveAfricanAmericanWoIcon {
+    position: absolute;
+    top: 139px;
+    left: 905px;
+    width: 367.3px;
+    height: 503px;
+    object-fit: cover;
+}
+.heroSectionInner {
+    position: absolute;
+    top: 237px;
+    left: 190px;
+    filter: blur(400px);
+    border-radius: 50%;
+    background-color: #ddaeff;
+    width: 135px;
+    height: 135px;
+}
+.ellipseDiv {
+    position: absolute;
+    top: 237px;
+    left: 335px;
+    filter: blur(400px);
+    border-radius: 50%;
+    background-color: #0b53cb;
+    width: 135px;
+    height: 135px;
+}
+.appScreenshotIcon {
+    position: absolute;
+    top: 481px;
+    left: 1002px;
+    width: 176.5px;
+    height: 109px;
+    object-fit: cover;
+}
+.appScreenshotIcon1 {
+    position: absolute;
+    top: 500px;
+    left: 681px;
+    width: 240px;
+    height: 108px;
+    object-fit: cover;
+}
+.taglineContainer {
+    position: absolute;
+    top: 725px;
+    left: 664px;
+    filter: blur(48.1px);
+    background-color: #fff;
+    width: 127px;
+    height: 776px;
+    overflow: hidden;
+    transform:  rotate(-90deg);
+    transform-origin: 0 0;
+}
+.shadowOverlayIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 725px;
+    object-fit: cover;
+    mix-blend-mode: luminosity;
+}
+.phoneImageIcon {
+    position: absolute;
+    top: 339px;
+    left: 1129px;
+    width: 168.5px;
+    height: 96px;
+    object-fit: cover;
+}
+.heroSection1 {
+    width: 100%;
+    position: relative;
+    height: 700px;
+    text-align: left;
+    font-size: 72px;
+    color: #111217;
+    /* background-color: #bc003c; */
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.heroSection {
+    width: 100%;
+    position: relative;
+    height: 700px;
+    text-align: left;
+    font-size: 72px;
+    color: #111217;
+    /* background-color: #00bc62; */
+    font-family: Sora;
+    object-fit: cover;
+    mix-blend-mode: luminosity;
+}
+
+
 

@@ -1,3 +1,10 @@
+.rectangleDiv {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+    /* height: 183px; */
+    height: 289px;
+    }
 .shadowIcon {
     position: absolute;
     top: 0.32px;
@@ -1028,6 +1035,7 @@
     height: 183px;
 }
 .frameContainer {
+    width: 100%;
     align-self: stretch;
     position: relative;
     background-color: #fff;

@@ -8,6 +8,8 @@ export type FAQType = {
   icons?: string;
   howDoesTheThriftPlanWork1?: string;
   showHowDoesThe?: boolean;
+  isOpen: boolean;
+  onToggle: () => void;
 };
 
 const FAQ: FunctionComponent<FAQType> = ({
@@ -15,13 +17,15 @@ const FAQ: FunctionComponent<FAQType> = ({
   howDoesTheThriftPlanWork,
   // icons,
   howDoesTheThriftPlanWork1,
+  isOpen,
+  onToggle,
   // showHowDoesThe,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const toggleCollapse = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleCollapse = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <div className={`faq ${className}`}>
@@ -30,7 +34,7 @@ const FAQ: FunctionComponent<FAQType> = ({
         <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          onClick={toggleCollapse}
+          onClick={onToggle}
           style={{
             padding: "10px 20px",
             fontSize: "16px",

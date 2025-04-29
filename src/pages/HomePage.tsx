@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect } from "react";
 import styles from "./HomePage.module.css";
 import FrameComponent1 from "../components/FrameComponent1";
 import Testimonials from "../components/Testimonials";
@@ -17,8 +17,64 @@ import stepImage from "../assets/StepImage.svg";
 import stepImage1 from "../assets/StepImage1.svg";
 import stepImage2 from "../assets/Stepmage2.svg";
 import stepImage3 from "../assets/StepImage3.svg";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const HomePage: FunctionComponent = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0.4, // trigger when 40% is visible
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({ opacity: 1, y: 0 });
+    } else {
+      controls.start({ opacity: 0, y: 100 });
+    }
+  }, [inView, controls]);
+
+  const [ref1, inView1] = useInView({
+    threshold: 0.4, // trigger when 40% is visible
+  });
+
+  const controls1 = useAnimation();
+
+  useEffect(() => {
+    if (inView1) {
+      controls1.start({ opacity: 1, y: 0 });
+    } else {
+      controls1.start({ opacity: 0, y: 100 });
+    }
+  }, [inView1, controls]);
+
+  const [ref2, inView2] = useInView({
+    threshold: 0.4, // trigger when 40% is visible
+  });
+
+  const controls2 = useAnimation();
+
+  useEffect(() => {
+    if (inView2) {
+      controls2.start({ opacity: 1, y: 0 });
+    } else {
+      controls2.start({ opacity: 0, y: 100 });
+    }
+  }, [inView2, controls2]);
+
+  const controls3 = useAnimation();
+  const [ref3, inView3] = useInView({
+    threshold: 0.4, // 40% of the div needs to be in view
+  });
+
+  useEffect(() => {
+    if (inView3) {
+      controls3.start({ opacity: 1, x: 0 });
+    } else {
+      controls3.start({ opacity: 0, x: -100 }); // slide left and disappear
+    }
+  }, [inView3, controls3]);
+
   return (
     <div className={styles.newThriftnestNewHeroSectio}>
       {/* <div className={styles.noiseTexture} /> */}
@@ -29,49 +85,199 @@ const HomePage: FunctionComponent = () => {
           <div className={styles.heroText}>
             <div className={styles.heroTextInner}>
               <div className={styles.saveSmarterTogetherParent}>
-                <div className={styles.saveSmarterTogether}>
-                  Save Smarter, Together
-                </div>
-                <div className={styles.joinThousandsOf}>
-                  Join thousands of savers achieving their financial goals with
-                  ThriftNest
-                </div>
+                <motion.div
+                  ref={ref1}
+                  animate={controls1}
+                  initial={{ opacity: 0, y: 100 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{
+                    duration: 0.8,
+                    delay: 0.5,
+                    ease: "easeOut",
+                  }}
+                  viewport={{ once: true, amount: 0.5 }}
+                >
+                  <div className={styles.saveSmarterTogether}>
+                    Save Smarter, Together
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  ref={ref2}
+                  animate={controls2}
+                  initial={{ opacity: 0, y: 100 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{
+                    duration: 0.7,
+                    delay: 0.8,
+                    ease: "easeOut",
+                  }}
+                  viewport={{ once: true, amount: 0.5 }}
+                >
+                  <div className={styles.joinThousandsOf}>
+                    Join thousands of savers achieving their financial goals
+                    with ThriftNest
+                  </div>
+                </motion.div>
               </div>
             </div>
             <div className={styles.button}>
               <div className={styles.button1}>Get The App</div>
             </div>
           </div>
-          <img className={styles.icon} alt="" src={guyWithPhone} />
-          <img
-            className={styles.expressiveAfricanAmericanWoIcon}
-            alt=""
-            src={ladyWithPhone}
-          />
+          <motion.div
+            ref={ref3}
+            animate={controls3}
+            initial={{ opacity: 0, x: -100 }}
+            // whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.7,
+              delay: 0.8,
+              ease: "easeOut",
+            }}
+            // viewport={{ once: true, amount: 0.5 }}
+          >
+            <img className={styles.icon} alt="" src={guyWithPhone} />
+          </motion.div>
+          <motion.div
+            ref={ref3}
+            animate={controls3}
+            initial={{ opacity: 0, x: -100 }}
+            // whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.7,
+              // delay: 0.8,
+              ease: "easeOut",
+            }}
+            // viewport={{ once: true, amount: 0.5 }}
+          >
+            <img
+              className={styles.expressiveAfricanAmericanWoIcon}
+              alt=""
+              src={ladyWithPhone}
+            />
+          </motion.div>
+
           <div className={styles.frameInner} />
           <div className={styles.ellipseDiv} />
-          <img className={styles.image72Icon} alt="" src={image72} />
-          <img className={styles.image73Icon} alt="" src={image73} />
+          <motion.div
+            ref={ref2}
+            animate={controls2}
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.7,
+              delay: 1.2,
+              ease: "easeOut",
+            }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <img className={styles.image72Icon} alt="" src={image72} />
+          </motion.div>
+
+          <motion.div
+            ref={ref2}
+            animate={controls2}
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.7,
+              delay: 1.8,
+              ease: "easeOut",
+            }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <img className={styles.image73Icon} alt="" src={image73} />
+          </motion.div>
+
           <div className={styles.frameDiv} />
           <img
             className={styles.shadowOverlayIcon}
             alt=""
             src={shadowOverlayIcon}
           />
-          <img className={styles.image70Icon} alt="" src={image70} />
+
+          <motion.div
+            ref={ref2}
+            animate={controls2}
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.7,
+              delay: 1.95,
+              ease: "easeOut",
+            }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <img className={styles.image70Icon} alt="" src={image70} />
+          </motion.div>
         </div>
+
+        {/* <div className={styles.heroSection}>
+          <div className={styles.heroSection}>
+            <div className={styles.heroSectionChild} />
+            <div className={styles.heroSectionItem} />
+            <div className={styles.heroText}>
+              <div className={styles.heroTextContainer}>
+                <div className={styles.heroTextContent}>
+                  <div className={styles.mainHeading}>
+                    Save Smarter, Together
+                  </div>
+                  <div className={styles.subheading}>
+                    Join thousands of savers achieving their financial goals
+                    with ThriftNest
+                  </div>
+                </div>
+              </div>
+              <div className={styles.button}>
+                <div className={styles.button1}>Get The App</div>
+              </div>
+            </div>
+            <img className={styles.icon} alt="" src={guyWithPhone} />
+            <img
+              className={styles.expressiveAfricanAmericanWoIcon}
+              alt=""
+              src={ladyWithPhone}
+            />
+            <div className={styles.heroSectionInner} />
+            <div className={styles.ellipseDiv} />
+            <img className={styles.appScreenshotIcon} alt="" src={image72} />
+            <img className={styles.appScreenshotIcon1} alt="" src={image73} />
+            <div className={styles.taglineContainer} />
+
+            <img className={styles.phoneImageIcon} alt="" src={image70} />
+          </div>
+          <img
+            className={styles.shadowOverlayIcon}
+            alt=""
+            src={shadowOverlayIcon}
+          />
+        </div> */}
 
         <div className={styles.frameParent1}>
           <div className={styles.iphone15ProBlackTitaniumMWrapper}>
-            <div className={styles.iphone15ProBlackTitaniumM}>
-              {/* <img className={styles.shadowIcon} alt="" src="shadow.png" /> */}
-              {/* <img className={styles.mainIcon} alt="" src="main.png" /> */}
+            <motion.div
+              ref={ref}
+              animate={controls}
+              initial={{ opacity: 0, y: 1000 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.6,
+                ease: "easeOut",
+              }}
+              viewport={{ once: true, amount: 0.5 }}
+              className={styles.iphone15ProBlackTitaniumM}
+            >
               <img
                 className={styles.iphone15ProBlackTitaniumM1}
                 alt=""
                 src={basicPhonePlan}
               />
-            </div>
+            </motion.div>
+            {/* <div className={styles.iphone15ProBlackTitaniumM}> */}
+            {/* <img className={styles.shadowIcon} alt="" src="shadow.png" /> */}
+            {/* <img className={styles.mainIcon} alt="" src="main.png" /> */}
+            {/* </div> */}
           </div>
           <div className={styles.frameParent2}>
             <div className={styles.frameParent3}>

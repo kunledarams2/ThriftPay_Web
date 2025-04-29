@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect } from "react";
 // import "./Footer.css";
 import styles from "./Footer.module.css";
 import mobileImage from "../assets/footer/mobile_handle.png";
@@ -11,6 +11,8 @@ import facebookIcon from "../assets/footer/Facebook.svg";
 import instagramIcon from "../assets/footer/Instagram.svg";
 import youtubeIcon from "../assets/footer/Youtube.svg";
 import dividerIcon from "../assets/footer/Divider.svg";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 // import { NavigateFunction, useNavigate } from "react-router";
 
@@ -22,6 +24,19 @@ export type FooterType = {
 // import styles from "./Frame.module.css";
 
 const Frame: FunctionComponent = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0.4, // trigger when 40% is visible
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({ opacity: 1, y: 0 });
+    } else {
+      controls.start({ opacity: 0, y: 100 });
+    }
+  }, [inView, controls]);
+
   return (
     <div className={styles.frameParent}>
       <div className={styles.downloadAppWrapper}>
@@ -31,12 +46,26 @@ const Frame: FunctionComponent = () => {
             <div className={styles.frameChild} />
           </div>
           <div className={styles.left}>
-            <div className={styles.transformYourSavings}>
-              Transform Your Savings Experience with ThriftPay!
-            </div>
-            <div className={styles.downloadNowAnd}>
-              Download now and start thriving!
-            </div>
+            <motion.div
+              ref={ref}
+              animate={controls}
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.8,
+                delay: 0.5,
+                ease: "easeOut",
+              }}
+              viewport={{ once: true, amount: 0.5 }}
+            >
+              <div className={styles.transformYourSavings}>
+                Transform Your Savings Experience with ThriftNest!
+              </div>
+              <div className={styles.downloadNowAnd}>
+                Download now and start thriving!
+              </div>
+            </motion.div>
+
             <div className={styles.appStoreParent}>
               <img
                 className={styles.appStoreIcon}
