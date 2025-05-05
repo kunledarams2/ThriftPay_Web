@@ -83,6 +83,8 @@ const NewAboUtUs: FunctionComponent = () => {
               freeMode={true}
               grabCursor={true}
               allowTouchMove={false}
+              observer={true}
+              observeParents={true}
             >
               {itemsSlider.map((src, i) => (
                 <SwiperSlide
