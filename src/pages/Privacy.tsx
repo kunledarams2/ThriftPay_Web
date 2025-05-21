@@ -1,7 +1,9 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect } from "react";
 
 import "./Contact.css";
 import styles from "./AboutUs.module.css";
+import { useLocation, useNavigate } from "react-router-dom";
+// import { NavigateFunction, useNavigate } from "react-router-dom";
 
 // const Section: FunctionComponent<{
 //   title: string;
@@ -24,6 +26,16 @@ import styles from "./AboutUs.module.css";
 // );
 
 const Privacy: FunctionComponent = () => {
+  const location = useLocation(); // gives access to the current URL
+  const navigate = useNavigate(); // gives you the navigate function
+
+  useEffect(() => {
+    // Check for weird junk in query string
+    if (location.search.includes("~and~") || location.search.length > 20) {
+      navigate("/privacy", { replace: true });
+    }
+  }, [location, navigate]);
+
   return (
     <>
       <div></div>

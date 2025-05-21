@@ -44,6 +44,13 @@ const Frame: FunctionComponent = () => {
     navigate("/privacy");
   };
 
+  // useEffect(() => {
+  //   if (location.search.includes("~and~") || location.search.length > 20) {
+  //     // clean redirect
+  //     navigate("/privacy", { replace: true });
+  //   }
+  // }, [location]);
+
   return (
     <div className={styles.frameParent}>
       <div className={styles.downloadAppWrapper}>
