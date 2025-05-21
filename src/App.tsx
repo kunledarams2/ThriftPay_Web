@@ -13,7 +13,8 @@ function App() {
     if (redirectedRef.current) return;
 
     if (
-      location.search.includes("~and~") ||
+      location.search.includes("/~and~/") ||
+      location.search.includes("?/&") ||
       location.search.includes("&/&") ||
       location.search.length > 20
     ) {
