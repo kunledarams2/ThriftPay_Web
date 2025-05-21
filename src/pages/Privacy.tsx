@@ -3,25 +3,25 @@ import { FunctionComponent } from "react";
 import "./Contact.css";
 import styles from "./AboutUs.module.css";
 
-const Section: FunctionComponent<{
-  title: string;
-  children: React.ReactNode;
-}> = ({ title, children }) => (
-  <div className="section">
-    <div className="subtitle">{title}</div>
-    <div className="text">{children}</div>
-  </div>
-);
+// const Section: FunctionComponent<{
+//   title: string;
+//   children: React.ReactNode;
+// }> = ({ title, children }) => (
+//   <div className="section">
+//     <div className="subtitle">{title}</div>
+//     <div className="text">{children}</div>
+//   </div>
+// );
 
-const List: FunctionComponent<{ items: string[] }> = ({ items }) => (
-  <ul className="list">
-    {items.map((item, index) => (
-      <li key={index} className="list-item">
-        {item}
-      </li>
-    ))}
-  </ul>
-);
+// const List: FunctionComponent<{ items: string[] }> = ({ items }) => (
+//   <ul className="list">
+//     {items.map((item, index) => (
+//       <li key={index} className="list-item">
+//         {item}
+//       </li>
+//     ))}
+//   </ul>
+// );
 
 const Privacy: FunctionComponent = () => {
   return (
