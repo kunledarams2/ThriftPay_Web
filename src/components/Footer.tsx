@@ -13,6 +13,7 @@ import youtubeIcon from "../assets/footer/Youtube.svg";
 import dividerIcon from "../assets/footer/Divider.svg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { NavigateFunction, useNavigate } from "react-router-dom";
 
 // import { NavigateFunction, useNavigate } from "react-router";
 
@@ -36,6 +37,12 @@ const Frame: FunctionComponent = () => {
       controls.start({ opacity: 0, y: 100 });
     }
   }, [inView, controls]);
+
+  let navigate: NavigateFunction = useNavigate();
+
+  const selectedPrivacyPage = () => {
+    navigate("/privacy");
+  };
 
   return (
     <div className={styles.frameParent}>
@@ -117,7 +124,9 @@ const Frame: FunctionComponent = () => {
             <div className={styles.aboutUs}>FAQs</div>
             <div className={styles.aboutUs}>Contact Us</div>
             <div className={styles.aboutUs}>Terms of Use</div>
-            <div className={styles.aboutUs}>Privacy Policy</div>
+            <div className={styles.aboutUs} onClick={selectedPrivacyPage}>
+              Privacy Policy{" "}
+            </div>
           </div>
         </div>
         <img className={styles.dividerIcon} alt="" src={dividerIcon} />
