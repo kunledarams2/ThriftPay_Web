@@ -21,6 +21,7 @@ const router = createBrowserRouter([
     // path: "/",
     // element: <ThriftPayLandingPage />,
     // // errorElement: <ErrorPage />,
+
     children: [
       {
         path: "/",
