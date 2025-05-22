@@ -11,10 +11,11 @@ import {
 // import Root from "./pages/Root.tsx";
 // import ThriftPayLandingPage from "./pages/ThriftPayLandingPage.tsx";
 // import ContactUs from "./pages/Contact.tsx";
-import Privacy from "./pages/Privacy.tsx";
+// import Privacy from "./pages/Privacy.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import NewAboUtUs from "./pages/NewAboUtUs.tsx";
 import NewThriftnestFAQ from "./pages/NewThriftnestFAQ.tsx";
+import ProvacyPolicy from "./pages/PrivacyPolicy.tsx";
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
           { path: "/home", element: <HomePage /> },
           { path: "/aboutus", element: <NewAboUtUs /> },
           { path: "/faqs", element: <NewThriftnestFAQ /> },
-          { path: "/privacy", element: <Privacy /> },
+          { path: "/privacy", element: <ProvacyPolicy /> },
         ],
       },
     ],

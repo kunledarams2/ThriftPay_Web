@@ -1,0 +1,604 @@
+.shadowIcon {
+  	position: absolute;
+  	top: 0.32px;
+  	left: 138.2px;
+  	width: 386.8px;
+  	height: 818px;
+  	object-fit: cover;
+  	opacity: 0.7;
+}
+.mainIcon {
+  	position: absolute;
+  	top: 0.32px;
+  	left: 138.2px;
+  	width: 386.8px;
+  	height: 818px;
+  	object-fit: cover;
+}
+.checkIcon {
+  	width: 46.1px;
+  	border-radius: 96px;
+  	height: 46.1px;
+}
+.idVerificationSubmitted {
+  	width: 204.8px;
+  	position: relative;
+  	letter-spacing: -0.01em;
+  	line-height: 14.72px;
+  	font-weight: 500;
+  	display: inline-block;
+}
+.supportingText {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 8.96px;
+  	line-height: 14.08px;
+  	color: #666f89;
+}
+.idVerificationSubmittedSuccParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 7.7px;
+}
+.checkIconParent {
+  	position: absolute;
+  	top: 164.56px;
+  	left: 0px;
+  	box-shadow: 0px 16px 20px -4px rgba(16, 24, 40, 0.1), 0px 6.400000095367432px 8px -4.8px rgba(16, 24, 40, 0.1);
+  	border-radius: 6.4px;
+  	background-color: #fff;
+  	width: 248px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 25.6px 12.8px;
+  	box-sizing: border-box;
+  	gap: 15.4px;
+}
+.pixel7ProMockup {
+  	position: absolute;
+  	top: 1401px;
+  	left: -632px;
+  	width: 525px;
+  	height: 299px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-family: Inter;
+}
+.lastModified {
+  	position: relative;
+  	line-height: 28px;
+  	font-weight: 600;
+}
+.stMay2025 {
+  	flex: 1;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 24px;
+  	color: #444a5b;
+}
+.dateModified {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.dateModifiedWrapper {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.divider {
+  	align-self: stretch;
+  	position: relative;
+  	border-top: 1px solid #d3d6de;
+  	box-sizing: border-box;
+  	height: 1px;
+}
+.thriftnestPrivacyAnd {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: -0.02em;
+  	line-height: 32px;
+  	font-weight: 600;
+}
+.paramountStudentsTermsAndC {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 24px;
+  	font-family: Sora;
+}
+.welcomeToThriftnest {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 24px;
+  	/* font-family: Sora; */
+  	color: #444a5b;
+    /* font-weight: 400; */
+}
+.introduction {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+  	font-size: 20px;
+  	color: #111217;
+}
+.informationWeCollect {
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	padding-left: 27px;
+}
+.informationWeCollectContainer {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 20px;
+  	line-height: 28px;
+  	font-weight: 600;
+}
+.weCollectThe {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 24px;
+  	color: #444a5b;
+}
+.aInformationYou {
+  	margin: 0;
+  	font-weight: 600;
+    	color: #020819;
+}
+.verificationDetailsBankVer {
+  	margin-bottom: Mixed;
+}
+.accountInformationNameEma {
+  	margin: 0;
+  	font-size: inherit;
+  	padding-left: 21px;
+  	color: #444a5b;
+}
+.aInformationYouContainer {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 24px;
+}
+.overview {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16px;
+  	color: #111217;
+}
+.weUseYour {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 24px;
+  	font-family: Inter;
+}
+.createAndManage {
+  	margin-bottom: 12px;
+}
+.createAndManageYourThriftn {
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	padding-left: 21px;
+}
+.dataCollectionAndUses {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.blankLine {
+  	margin: 0;
+}
+.childrensPrivacy {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 28px;
+  	font-weight: 600;
+}
+.thriftnestIsNot {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 24px;
+}
+.dataSharingAndDisclosure4 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+  	font-size: 20px;
+}
+.content2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 40px;
+  	font-size: 16px;
+  	color: #444a5b;
+}
+.content1 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 40px;
+}
+.content {
+  	position: absolute;
+  	top: 312px;
+  	left: calc(50% - 717px);
+  	background-color: #fff;
+  	border-bottom: 1px solid #d3d6de;
+  	box-sizing: border-box;
+  	width: 1440px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 64px 200px;
+  	font-size: 20px;
+}
+.privacyPolicy {
+  	position: relative;
+  	letter-spacing: -0.04em;
+  	line-height: 72px;
+  	font-weight: 600;
+}
+.privacyPolicyWrapper {
+  	width: 787px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.frameWrapper {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: flex-start;
+}
+.provacyPolicyInner {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #f4f5f7;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 160px 400px 80px ;
+  	box-sizing: border-box;
+  	font-size: 40px;
+  	font-family: Sora;
+}
+.logoIcon {
+  	width: 35.9px;
+  	position: relative;
+  	height: 35.9px;
+}
+.thriftnest {
+  	position: relative;
+  	letter-spacing: -0.02em;
+  	line-height: 17.93px;
+  	font-weight: 600;
+}
+.logoGroup {
+  	width: 120px;
+  	height: 49px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 4.5px;
+}
+.autoAddedFrame {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	text-align: center;
+  	color: #0b53cb;
+}
+.yourGatewayTo {
+  	width: 420px;
+  	position: relative;
+  	font-size: 20px;
+  	line-height: 28px;
+  	font-family: Inter;
+  	display: none;
+}
+.ogunHousingEstate {
+  	width: 277px;
+  	position: relative;
+  	line-height: 20px;
+  	display: flex;
+  	align-items: center;
+}
+.ogunHousingEstateOgunStatParent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 12px;
+  	font-size: 14px;
+}
+.logo {
+  	width: 316px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16px;
+  	font-size: 14.35px;
+}
+.aboutUs {
+  	flex: 1;
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 600;
+}
+.logoParent {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 10px;
+}
+.content3 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+}
+.divider1px {
+  	position: absolute;
+  	width: 100.08%;
+  	right: -0.04%;
+  	left: -0.04%;
+  	border-top: 1px solid #d3d6de;
+  	box-sizing: border-box;
+  	height: 1px;
+}
+.divider1 {
+  	align-self: stretch;
+  	position: relative;
+  	height: 0px;
+}
+.copyrightThriftnest {
+  	flex: 1;
+  	position: relative;
+  	line-height: 20px;
+  	display: flex;
+  	align-items: center;
+  	height: 28px;
+}
+.plot11Block29Road29OgunParent {
+  	display: none;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+}
+.copyrightThriftnest2025Parent {
+  	width: 948px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 10px;
+}
+.linkedinIcon {
+  	width: 30px;
+  	position: relative;
+  	height: 30px;
+}
+.facebookIcon1 {
+  	width: 30px;
+  	position: relative;
+  	height: 30px;
+  	object-fit: cover;
+}
+.linkedinParent {
+  	width: 230px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	gap: 20px;
+}
+.frameParent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 32px;
+  	font-size: 14px;
+}
+.footer {
+  	align-self: stretch;
+  	background-color: #fff;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 32px 100px;
+  	gap: 32px;
+}
+.footerWrapper {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+  	width: 1441px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 16px;
+  	color: #444a5b;
+}
+.logoIcon1 {
+  	width: 38.7px;
+  	position: relative;
+  	height: 38.7px;
+}
+.brandName {
+  	position: relative;
+  	letter-spacing: -0.02em;
+  	line-height: 19.37px;
+  	font-weight: 600;
+}
+.logoAndText {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 4.8px;
+  	cursor: pointer;
+  	z-index: 0;
+  	text-align: center;
+}
+.button1 {
+  	position: relative;
+  	line-height: 22px;
+  	font-weight: 600;
+}
+.button {
+  	width: 94px;
+  	border-radius: 8px;
+  	background-color: #fafafb;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 24px;
+  	box-sizing: border-box;
+}
+.button2 {
+  	width: 94px;
+  	border-radius: 8px;
+  	background-color: #0b53cb;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 24px;
+  	box-sizing: border-box;
+  	color: #fafafb;
+}
+.buttons {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 16px;
+  	z-index: 1;
+  	font-size: 14px;
+  	color: #4f4f4f;
+}
+.text {
+  	position: relative;
+  	line-height: 150%;
+  	font-weight: 500;
+  	cursor: pointer;
+}
+.text1 {
+  	position: relative;
+  	line-height: 150%;
+  	font-weight: 500;
+}
+.text4 {
+  	position: relative;
+  	line-height: 150%;
+  	font-weight: 600;
+}
+.textWrapper {
+  	box-shadow: 0px 4px 6px -1px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.1);
+  	border-radius: 8px;
+  	background-color: #f5f7fa;
+  	border: 1px solid rgba(10, 123, 255, 0.5);
+  	display: none;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 8px 20px;
+  	color: #333;
+}
+.container {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: calc(50% - 12.35px);
+  	left: calc(50% - 150.5px);
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 40px;
+  	z-index: 2;
+  	font-size: 16px;
+  	color: #666f89;
+}
+.navbar {
+  	position: absolute;
+  	top: 30px;
+  	left: calc(50% - 524px);
+  	border-radius: 12px;
+  	background-color: #fff;
+  	border: 1px solid #e4e5eb;
+  	box-sizing: border-box;
+  	width: 1049px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 16px 16px 16px 24px;
+  	gap: 0px;
+  	font-size: 15.5px;
+  	color: #0b53cb;
+}
+.provacyPolicy {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 2729px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 12.8px;
+  	color: #111217;
+  	font-family: Urbanist;
+}
+
