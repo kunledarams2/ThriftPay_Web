@@ -10,6 +10,7 @@ function App() {
   const redirectedRef = useRef(false); // guard
 
   useEffect(() => {
+    console.log("🧭 Current location:", location.pathname + location.search);
     if (redirectedRef.current) return;
 
     if (
